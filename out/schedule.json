@@ -1,0 +1,460 @@
+{
+  "metadata": {
+    "fitness": 499168.1609807649,
+    "hard_violations": 498,
+    "soft_violations": {
+      "combinations": 10.333333333333334,
+      "class_balance": 0.3482764743157622,
+      "professor_gaps": 0.0,
+      "student_gaps": 0.0,
+      "professor_preferences": 1.0,
+      "clasroom_adequacy": 0.0
+    },
+    "is_valid": false,
+    "total_groups": 17
+  },
+  "groups": [
+    {
+      "id": "CI-010-G1",
+      "course": {
+        "id": "CI-010",
+        "name": "Computabilidad",
+        "semester": 5,
+        "hours": 5,
+        "lab": true
+      },
+      "group_number": 1,
+      "professor": {
+        "id": "P000",
+        "name": "Carlos Vargas"
+      },
+      "classroom": {
+        "number": "106",
+        "type": "lab"
+      },
+      "schedules": [
+        {
+          "day": "Lunes",
+          "start_hour": 7,
+          "end_hour": 12
+        }
+      ]
+    },
+    {
+      "id": "CI-010-G2",
+      "course": {
+        "id": "CI-010",
+        "name": "Computabilidad",
+        "semester": 5,
+        "hours": 5,
+        "lab": true
+      },
+      "group_number": 2,
+      "professor": {
+        "id": "P000",
+        "name": "Carlos Vargas"
+      },
+      "classroom": {
+        "number": "106",
+        "type": "lab"
+      },
+      "schedules": [
+        {
+          "day": "Lunes",
+          "start_hour": 7,
+          "end_hour": 12
+        }
+      ]
+    },
+    {
+      "id": "MA-205-G1",
+      "course": {
+        "id": "MA-205",
+        "name": "\u00c1lgebra Lineal",
+        "semester": 3,
+        "hours": 5,
+        "lab": false
+      },
+      "group_number": 1,
+      "professor": {
+        "id": "P000",
+        "name": "Carlos Vargas"
+      },
+      "classroom": {
+        "number": "101",
+        "type": "normal"
+      },
+      "schedules": [
+        {
+          "day": "Lunes",
+          "start_hour": 7,
+          "end_hour": 12
+        }
+      ]
+    },
+    {
+      "id": "MA-205-G2",
+      "course": {
+        "id": "MA-205",
+        "name": "\u00c1lgebra Lineal",
+        "semester": 3,
+        "hours": 5,
+        "lab": false
+      },
+      "group_number": 2,
+      "professor": {
+        "id": "P000",
+        "name": "Carlos Vargas"
+      },
+      "classroom": {
+        "number": "101",
+        "type": "normal"
+      },
+      "schedules": [
+        {
+          "day": "Lunes",
+          "start_hour": 7,
+          "end_hour": 12
+        }
+      ]
+    },
+    {
+      "id": "MA-205-G3",
+      "course": {
+        "id": "MA-205",
+        "name": "\u00c1lgebra Lineal",
+        "semester": 3,
+        "hours": 5,
+        "lab": false
+      },
+      "group_number": 3,
+      "professor": {
+        "id": "P000",
+        "name": "Carlos Vargas"
+      },
+      "classroom": {
+        "number": "101",
+        "type": "normal"
+      },
+      "schedules": [
+        {
+          "day": "Lunes",
+          "start_hour": 7,
+          "end_hour": 12
+        }
+      ]
+    },
+    {
+      "id": "CI-011-G1",
+      "course": {
+        "id": "CI-011",
+        "name": "PI Redes de Comunicaci\u00f3n de Datos y Sistemas Operativos",
+        "semester": 5,
+        "hours": 5,
+        "lab": true
+      },
+      "group_number": 1,
+      "professor": {
+        "id": "P002",
+        "name": "Edgar Casasola"
+      },
+      "classroom": {
+        "number": "106",
+        "type": "lab"
+      },
+      "schedules": [
+        {
+          "day": "Lunes",
+          "start_hour": 7,
+          "end_hour": 12
+        }
+      ]
+    },
+    {
+      "id": "CI-011-G2",
+      "course": {
+        "id": "CI-011",
+        "name": "PI Redes de Comunicaci\u00f3n de Datos y Sistemas Operativos",
+        "semester": 5,
+        "hours": 5,
+        "lab": true
+      },
+      "group_number": 2,
+      "professor": {
+        "id": "P002",
+        "name": "Edgar Casasola"
+      },
+      "classroom": {
+        "number": "106",
+        "type": "lab"
+      },
+      "schedules": [
+        {
+          "day": "Lunes",
+          "start_hour": 7,
+          "end_hour": 12
+        }
+      ]
+    },
+    {
+      "id": "CI-011-G3",
+      "course": {
+        "id": "CI-011",
+        "name": "PI Redes de Comunicaci\u00f3n de Datos y Sistemas Operativos",
+        "semester": 5,
+        "hours": 5,
+        "lab": true
+      },
+      "group_number": 3,
+      "professor": {
+        "id": "P002",
+        "name": "Edgar Casasola"
+      },
+      "classroom": {
+        "number": "106",
+        "type": "lab"
+      },
+      "schedules": [
+        {
+          "day": "Lunes",
+          "start_hour": 7,
+          "end_hour": 12
+        }
+      ]
+    },
+    {
+      "id": "CI-012-G1",
+      "course": {
+        "id": "CI-012",
+        "name": "Redes de Comunicaci\u00f3n de Datos",
+        "semester": 5,
+        "hours": 5,
+        "lab": false
+      },
+      "group_number": 1,
+      "professor": {
+        "id": "P002",
+        "name": "Edgar Casasola"
+      },
+      "classroom": {
+        "number": "101",
+        "type": "normal"
+      },
+      "schedules": [
+        {
+          "day": "Lunes",
+          "start_hour": 7,
+          "end_hour": 12
+        }
+      ]
+    },
+    {
+      "id": "CI-012-G2",
+      "course": {
+        "id": "CI-012",
+        "name": "Redes de Comunicaci\u00f3n de Datos",
+        "semester": 5,
+        "hours": 5,
+        "lab": false
+      },
+      "group_number": 2,
+      "professor": {
+        "id": "P002",
+        "name": "Edgar Casasola"
+      },
+      "classroom": {
+        "number": "101",
+        "type": "normal"
+      },
+      "schedules": [
+        {
+          "day": "Lunes",
+          "start_hour": 7,
+          "end_hour": 12
+        }
+      ]
+    },
+    {
+      "id": "CI-012-G3",
+      "course": {
+        "id": "CI-012",
+        "name": "Redes de Comunicaci\u00f3n de Datos",
+        "semester": 5,
+        "hours": 5,
+        "lab": false
+      },
+      "group_number": 3,
+      "professor": {
+        "id": "P002",
+        "name": "Edgar Casasola"
+      },
+      "classroom": {
+        "number": "101",
+        "type": "normal"
+      },
+      "schedules": [
+        {
+          "day": "Lunes",
+          "start_hour": 7,
+          "end_hour": 12
+        }
+      ]
+    },
+    {
+      "id": "CI-013-G1",
+      "course": {
+        "id": "CI-013",
+        "name": "Sistemas Operativos",
+        "semester": 5,
+        "hours": 5,
+        "lab": false
+      },
+      "group_number": 1,
+      "professor": {
+        "id": "P002",
+        "name": "Edgar Casasola"
+      },
+      "classroom": {
+        "number": "101",
+        "type": "normal"
+      },
+      "schedules": [
+        {
+          "day": "Lunes",
+          "start_hour": 7,
+          "end_hour": 12
+        }
+      ]
+    },
+    {
+      "id": "CI-013-G2",
+      "course": {
+        "id": "CI-013",
+        "name": "Sistemas Operativos",
+        "semester": 5,
+        "hours": 5,
+        "lab": false
+      },
+      "group_number": 2,
+      "professor": {
+        "id": "P002",
+        "name": "Edgar Casasola"
+      },
+      "classroom": {
+        "number": "101",
+        "type": "normal"
+      },
+      "schedules": [
+        {
+          "day": "Lunes",
+          "start_hour": 7,
+          "end_hour": 12
+        }
+      ]
+    },
+    {
+      "id": "CI-013-G3",
+      "course": {
+        "id": "CI-013",
+        "name": "Sistemas Operativos",
+        "semester": 5,
+        "hours": 5,
+        "lab": false
+      },
+      "group_number": 3,
+      "professor": {
+        "id": "P002",
+        "name": "Edgar Casasola"
+      },
+      "classroom": {
+        "number": "101",
+        "type": "normal"
+      },
+      "schedules": [
+        {
+          "day": "Lunes",
+          "start_hour": 7,
+          "end_hour": 12
+        }
+      ]
+    },
+    {
+      "id": "CI-014-G1",
+      "course": {
+        "id": "CI-014",
+        "name": "Modelado y Optimizaci\u00f3n",
+        "semester": 5,
+        "hours": 5,
+        "lab": false
+      },
+      "group_number": 1,
+      "professor": {
+        "id": "P005",
+        "name": "Kryscia Ramirez"
+      },
+      "classroom": {
+        "number": "101",
+        "type": "normal"
+      },
+      "schedules": [
+        {
+          "day": "Lunes",
+          "start_hour": 8,
+          "end_hour": 13
+        }
+      ]
+    },
+    {
+      "id": "CI-014-G2",
+      "course": {
+        "id": "CI-014",
+        "name": "Modelado y Optimizaci\u00f3n",
+        "semester": 5,
+        "hours": 5,
+        "lab": false
+      },
+      "group_number": 2,
+      "professor": {
+        "id": "P005",
+        "name": "Kryscia Ramirez"
+      },
+      "classroom": {
+        "number": "101",
+        "type": "normal"
+      },
+      "schedules": [
+        {
+          "day": "Lunes",
+          "start_hour": 13,
+          "end_hour": 18
+        }
+      ]
+    },
+    {
+      "id": "CI-014-G3",
+      "course": {
+        "id": "CI-014",
+        "name": "Modelado y Optimizaci\u00f3n",
+        "semester": 5,
+        "hours": 5,
+        "lab": false
+      },
+      "group_number": 3,
+      "professor": {
+        "id": "P005",
+        "name": "Kryscia Ramirez"
+      },
+      "classroom": {
+        "number": "101",
+        "type": "normal"
+      },
+      "schedules": [
+        {
+          "day": "Martes",
+          "start_hour": 7,
+          "end_hour": 12
+        }
+      ]
+    }
+  ]
+}

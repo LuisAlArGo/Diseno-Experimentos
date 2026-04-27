@@ -1,0 +1,18 @@
+group_id,course_id,course_name,semester,group_number,professor_id,professor_name,classroom_number,classroom_type,day,start_hour,end_hour
+CI-010-G1,CI-010,Computabilidad,5,1,P000,Carlos Vargas,106,lab,Lunes,7,12
+CI-010-G2,CI-010,Computabilidad,5,2,P000,Carlos Vargas,106,lab,Lunes,7,12
+MA-205-G1,MA-205,Álgebra Lineal,3,1,P000,Carlos Vargas,101,normal,Lunes,7,12
+MA-205-G2,MA-205,Álgebra Lineal,3,2,P000,Carlos Vargas,101,normal,Lunes,7,12
+MA-205-G3,MA-205,Álgebra Lineal,3,3,P000,Carlos Vargas,101,normal,Lunes,7,12
+CI-011-G1,CI-011,PI Redes de Comunicación de Datos y Sistemas Operativos,5,1,P002,Edgar Casasola,106,lab,Lunes,7,12
+CI-011-G2,CI-011,PI Redes de Comunicación de Datos y Sistemas Operativos,5,2,P002,Edgar Casasola,106,lab,Lunes,7,12
+CI-011-G3,CI-011,PI Redes de Comunicación de Datos y Sistemas Operativos,5,3,P002,Edgar Casasola,106,lab,Lunes,7,12
+CI-012-G1,CI-012,Redes de Comunicación de Datos,5,1,P002,Edgar Casasola,101,normal,Lunes,7,12
+CI-012-G2,CI-012,Redes de Comunicación de Datos,5,2,P002,Edgar Casasola,101,normal,Lunes,7,12
+CI-012-G3,CI-012,Redes de Comunicación de Datos,5,3,P002,Edgar Casasola,101,normal,Lunes,7,12
+CI-013-G1,CI-013,Sistemas Operativos,5,1,P002,Edgar Casasola,101,normal,Lunes,7,12
+CI-013-G2,CI-013,Sistemas Operativos,5,2,P002,Edgar Casasola,101,normal,Lunes,7,12
+CI-013-G3,CI-013,Sistemas Operativos,5,3,P002,Edgar Casasola,101,normal,Lunes,7,12
+CI-014-G1,CI-014,Modelado y Optimización,5,1,P005,Kryscia Ramirez,101,normal,Lunes,8,13
+CI-014-G2,CI-014,Modelado y Optimización,5,2,P005,Kryscia Ramirez,101,normal,Lunes,13,18
+CI-014-G3,CI-014,Modelado y Optimización,5,3,P005,Kryscia Ramirez,101,normal,Martes,7,12

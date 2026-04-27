@@ -1,0 +1,177 @@
+= Project name
+:experimental:
+:nofooter:
+:source-highlighter: pygments
+:sectnums:
+:stem: latexmath
+:toc:
+:xrefstyle: short
+:example_dir: ./tests/
+
+[[problem_statement]]
+== Problem statement
+
+The problem to solve is generating schedules for the School of Computer Science and Informatics (ECCI) that are valid and of good quality; this problem is also known as the **University Timetabling Problem**. The objective is to generate a complete schedule for an academic semester, assigning each group of every course a professor, a classroom, and also a class time.
+
+The semester schedules for the ECCI that we will create in this project contain the following elements:
+
+* **Courses:** Name, semester, weekly hours, and whether they require a laboratory.
+* **Groups:** At ECCI, a course may have more than one group.
+* **Professors:** Faculty members; instructors have an area of specialization—i.e., the courses they can teach—a maximum number of groups they can be assigned, and preferences for schedule times and courses.
+* **Classrooms:** Either laboratories or regular classrooms.
+* **Time Blocks:** Time intervals; in our case, one-hour slots on specific days (for example, Monday 7:00–8:00). Courses span multiple time blocks.
+
+This problem, as discussed in the proposal presentation, is **NP-Hard**, because even with a small number of groups and courses, the combinatorial complexity explodes. The complexity arises because, for a schedule to be valid, certain rules must be satisfied: each group must have a specific classroom, at a specific time, and must be assigned at least one professor. But that alone does not make a good schedule: a schedule may be perfectly valid even if a professor has gaps of 8 hours between classes, which would be undesirable and could even motivate them to resign.
+
+It is clear, then, that a good schedule consists of rules that cannot be violated (**hard constraints**) and other desirable conditions that define schedule quality, not just validity (**soft constraints**).
+
+To evaluate these constraints, we use a **penalty system**, where each violation adds a negative score to the schedule. Breaking a hard constraint results in a high penalty, and soft constraints receive a lower penalty. The more penalties a schedule accumulates, the lower its quality; this allows us to quantify the quality of generated schedules and helps us find better solutions.
+
+Below are the constraints used:
+
+
+=== Hard Constraints
+
+Must be satisfied for the schedule to be considered valid:
+
+* **Professor Conflict:** A professor cannot be assigned to two different groups in the same time block.
+
+* **Classroom Conflict:** A classroom cannot be used by two different groups in the same time block.
+
+* **Curriculum Conflict:** There must exist at least one combination of groups per semester such that a student can enroll without schedule conflicts.
+
+* **Groups per Professor:** A professor cannot exceed their maximum number of assigned groups.
+
+* **Professor Availability:** A professor’s classes must be assigned within their available working hours.
+
+
+=== Soft Constraints
+
+Define the quality of a schedule:
+
+* **Student Flexibility:** Schedules offering a larger number of valid combinations for students of the same semester are favored.
+
+* **Teacher Gaps:** Schedules that leave large gaps between a professor’s classes on the same day are penalized.
+
+* **Student Gaps:** Schedule combinations that cause large gaps for students are penalized.
+
+* **Professor Preferences:** Assigning courses or time blocks that do not match a professor’s preferences is penalized.
+
+* **Classroom Adequacy:** Penalties are assigned if a lab course is not placed in a lab classroom, or if a regular course unnecessarily occupies a laboratory.
+
+With this, we can now define the objective function. The objective function combines all constraints into a single value that we call **fitness**. To calculate it, we add all penalties. Penalties for hard constraint violations have a value of **1000**, while penalties for soft constraint violations have a value of **100**. The fitness is therefore defined as:
+
+[stem]
+++++
+Hard Violations × 1000 + Soft Violations × 100
+++++
+---
+
+
+=== Algorithms Used
+To solve the problem, we implemented three different algorithms, each with its own advantages and disadvantages:
+
+* **Brute Force:** This algorithm explores all possible combinations of assignments to find a valid schedule. While it guarantees finding a solution if one exists, its execution time grows exponentially with the number of groups and courses, making it impractical for larger datasets.
+* **Heuristic with Backtracking:** This algorithm uses the Minimum Remaining Values (MRV) heuristic to assign groups to time blocks and classrooms, backtracking when it encounters conflicts. It is more efficient than brute force and can find valid schedules faster, but it does not guarantee finding the optimal solution.
+* **Genetic Algorithm:** This algorithm simulates the process of natural selection to evolve a population of schedules over several generations. It uses selection, crossover, and mutation to explore the solution space. While it can find good quality schedules in a reasonable time, it does not guarantee finding the optimal solution and its performance can vary based on the parameters used.
+
+=== Input Example
+
+The following input files are needed for the schedule. They must contain the data for the schedule, follow the same JSON format and be in one folder.
+
+.link:data/professors.json[]
+[%collapsible]
+====
+[source,json]
+----
+include::data/professors.json[]
+----
+====
+
+
+.link:data/courses.json[]
+[%collapsible]
+====
+[source,json]
+----
+include::data/courses.json[]
+----
+====
+
+.link:data/classrooms.json[]
+[%collapsible]
+====
+[source,json]
+----
+include::data/classrooms.json[]
+----
+====
+
+
+=== Output Example
+
+Once the program runs, the resulting schedule is saved in the following files, each having the same data but in two different formats: JSON and csv. You can visualize the resulting JSON schedule with a tool like https://jsontotable.net and the csv schedule with any spreadsheet software like Microsoft Excel or LibreOffice Calc.
+
+.link:out/schedule.json[]
+[%collapsible]
+====
+[source,json]
+----
+include::out/schedule.json[]
+----
+====
+
+.link:out/schedule.csv[]
+[%collapsible]
+====
+[source,csv]
+----
+include::out/schedule.csv[]
+----
+====
+
+
+[[user_manual]]
+== User manual
+
+To install the project dependencies using the link:./requirements.txt[requirements.txt] file provided:
+
+[source,bash]
+----
+pip install -r requirements.txt
+----
+
+[[usage]]
+=== Usage
+
+The program can be executed in three different modes: brute-force, heuristic, and genetic algorithm. Each mode has its own advantages and disadvantages in terms of execution time and solution quality. To view the available modes, run the program with the `--help` flag:
+
+[source,bash]
+----
+python src/main.py --help
+
+# 
+# Output:
+usage: main.py [-h] --data-path DATA_PATH [--mode {0,1,2}] [--verbose]
+
+UCR Course Scheduler
+
+options:
+  -h, --help            show this help message and exit
+  --data-path DATA_PATH
+                        Path to the data directory
+  --mode {0,1,2}        Mode of operation: 0=brute force, 1=heuristic, 2=genetic algorithm (default)
+  --verbose             Enable verbose output for genetic algorithm and heuristic modes
+----
+
+This will display the available modes and their descriptions. To run the program, you must specify the folder containing the input data using the `--data-path` flag, and, optionally, run it in a specific mode using the `--mode` flag followed by the mode number (the default mode is genetic algorithm). For example, to run the program in heuristic mode with input data in the "data" folder, use the following command:
+[source,bash]
+----
+python src/main.py --data-path data --mode 1
+----
+You can also enable verbose output by adding the `--verbose` flag:
+[source,bash]
+----
+python src/main.py --data-path data --mode 1 --verbose
+----
+This will provide detailed information about the scheduling process, including backtracking steps and assignment attempts.

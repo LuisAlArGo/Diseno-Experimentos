@@ -1,0 +1,2560 @@
+[
+  {
+    "id": "P_VARGAS_C",
+    "name": "Carlos Vargas",
+    "courses": [
+      "CI-0111",
+      "CI-0118",
+      "CI-0110"
+    ],
+    "max_groups": 3,
+    "course_preferences": [
+      "CI-0110",
+      "CI-0111"
+    ],
+    "schedule_preferences": [
+      {
+        "day": "Lunes",
+        "start_time": 10,
+        "end_time": 16
+      },
+      {
+        "day": "Martes",
+        "start_time": 13,
+        "end_time": 16
+      },
+      {
+        "day": "Jueves",
+        "start_time": 10,
+        "end_time": 16
+      },
+      {
+        "day": "Viernes",
+        "start_time": 13,
+        "end_time": 15
+      }
+    ],
+    "available_blocks": [
+      {
+        "day": "Lunes",
+        "start_time": 9,
+        "end_time": 20
+      },
+      {
+        "day": "Martes",
+        "start_time": 13,
+        "end_time": 20
+      },
+      {
+        "day": "Jueves",
+        "start_time": 9,
+        "end_time": 20
+      },
+      {
+        "day": "Viernes",
+        "start_time": 13,
+        "end_time": 19
+      }
+    ]
+  },
+  {
+    "id": "P_MARTINEZ_A",
+    "name": "Alexandra Martínez",
+    "courses": [
+      "CI-0110"
+    ],
+    "max_groups": 1,
+    "course_preferences": [
+      "CI-0110"
+    ],
+    "schedule_preferences": [
+      {
+        "day": "Martes",
+        "start_time": 13,
+        "end_time": 16
+      },
+      {
+        "day": "Viernes",
+        "start_time": 13,
+        "end_time": 15
+      }
+    ],
+    "available_blocks": [
+      {
+        "day": "Martes",
+        "start_time": 11,
+        "end_time": 16
+      },
+      {
+        "day": "Viernes",
+        "start_time": 11,
+        "end_time": 15
+      }
+    ]
+  },
+  {
+    "id": "P_QUESADA_L",
+    "name": "Luis Quesada",
+    "courses": [
+      "CI-0110",
+      "CI-0118",
+      "CI-0119",
+      "CI-0122"
+    ],
+    "max_groups": 1,
+    "course_preferences": [
+      "CI-0110"
+    ],
+    "schedule_preferences": [
+      {
+        "day": "Lunes",
+        "start_time": 10,
+        "end_time": 12
+      },
+      {
+        "day": "Jueves",
+        "start_time": 9,
+        "end_time": 12
+      }
+    ],
+    "available_blocks": [
+      {
+        "day": "Lunes",
+        "start_time": 7,
+        "end_time": 12
+      },
+      {
+        "day": "Jueves",
+        "start_time": 9,
+        "end_time": 14
+      }
+    ]
+  },
+  {
+    "id": "P_BRENES_K",
+    "name": "Katya Brenes",
+    "courses": [
+      "CI-0110",
+      "CI-0112",
+      "CI-0202",
+      "CI-0101"
+    ],
+    "max_groups": 2,
+    "course_preferences": [
+      "CI-0110",
+      "CI-0112"
+    ],
+    "schedule_preferences": [
+      {
+        "day": "Martes",
+        "start_time": 7,
+        "end_time": 12
+      },
+      {
+        "day": "Viernes",
+        "start_time": 7,
+        "end_time": 12
+      }
+    ],
+    "available_blocks": [
+      {
+        "day": "Martes",
+        "start_time": 7,
+        "end_time": 15
+      },
+      {
+        "day": "Viernes",
+        "start_time": 7,
+        "end_time": 14
+      }
+    ]
+  },
+  {
+    "id": "P_GUEVARA_P",
+    "name": "Patricia Guevara",
+    "courses": [
+      "CI-0110",
+      "CI-0202",
+      "CI-0111",
+      "CI-0101"
+    ],
+    "max_groups": 3,
+    "course_preferences": [
+      "CI-0110",
+      "CI-0202"
+    ],
+    "schedule_preferences": [
+      {
+        "day": "Lunes",
+        "start_time": 7,
+        "end_time": 16
+      },
+      {
+        "day": "Jueves",
+        "start_time": 7,
+        "end_time": 15
+      }
+    ],
+    "available_blocks": [
+      {
+        "day": "Lunes",
+        "start_time": 7,
+        "end_time": 19
+      },
+      {
+        "day": "Jueves",
+        "start_time": 7,
+        "end_time": 17
+      }
+    ]
+  },
+  {
+    "id": "P_BRENES_JA",
+    "name": "José Antonio Brenes",
+    "courses": [
+      "CI-0110"
+    ],
+    "max_groups": 1,
+    "course_preferences": [
+      "CI-0110"
+    ],
+    "schedule_preferences": [
+      {
+        "day": "Lunes",
+        "start_time": 10,
+        "end_time": 12
+      },
+      {
+        "day": "Jueves",
+        "start_time": 9,
+        "end_time": 12
+      }
+    ],
+    "available_blocks": [
+      {
+        "day": "Lunes",
+        "start_time": 10,
+        "end_time": 15
+      },
+      {
+        "day": "Jueves",
+        "start_time": 9,
+        "end_time": 15
+      }
+    ]
+  },
+  {
+    "id": "P_SELVA_A",
+    "name": "Alejandra Selva",
+    "courses": [
+      "CI-0110",
+      "CI-0133",
+      "CI-0139",
+      "CI-0140"
+    ],
+    "max_groups": 1,
+    "course_preferences": [
+      "CI-0110"
+    ],
+    "schedule_preferences": [
+      {
+        "day": "Lunes",
+        "start_time": 7,
+        "end_time": 10
+      },
+      {
+        "day": "Jueves",
+        "start_time": 7,
+        "end_time": 9
+      }
+    ],
+    "available_blocks": [
+      {
+        "day": "Lunes",
+        "start_time": 7,
+        "end_time": 13
+      },
+      {
+        "day": "Jueves",
+        "start_time": 7,
+        "end_time": 11
+      }
+    ]
+  },
+  {
+    "id": "P_ESQUIVEL_J",
+    "name": "Jonathan Esquivel",
+    "courses": [
+      "CI-0110",
+      "CI-0117",
+      "CI-0163",
+      "CI-0113",
+      "CI-0116"
+    ],
+    "max_groups": 3,
+    "course_preferences": [
+      "CI-0110",
+      "CI-0117",
+      "CI-0163"
+    ],
+    "schedule_preferences": [
+      {
+        "day": "Lunes",
+        "start_time": 13,
+        "end_time": 18
+      },
+      {
+        "day": "Jueves",
+        "start_time": 13,
+        "end_time": 18
+      },
+      {
+        "day": "Martes",
+        "start_time": 13,
+        "end_time": 16
+      },
+      {
+        "day": "Viernes",
+        "start_time": 13,
+        "end_time": 15
+      }
+    ],
+    "available_blocks": [
+      {
+        "day": "Lunes",
+        "start_time": 13,
+        "end_time": 21
+      },
+      {
+        "day": "Jueves",
+        "start_time": 10,
+        "end_time": 18
+      },
+      {
+        "day": "Martes",
+        "start_time": 10,
+        "end_time": 16
+      },
+      {
+        "day": "Viernes",
+        "start_time": 10,
+        "end_time": 15
+      }
+    ]
+  },
+  {
+    "id": "P_SOLIS_H",
+    "name": "Hansell Solís",
+    "courses": [
+      "CI-0110",
+      "CI-0112",
+      "CI-0113",
+      "CI-0202",
+      "CI-0143"
+    ],
+    "max_groups": 2,
+    "course_preferences": [
+      "CI-0110",
+      "CI-0112"
+    ],
+    "schedule_preferences": [
+      {
+        "day": "Martes",
+        "start_time": 7,
+        "end_time": 12
+      },
+      {
+        "day": "Viernes",
+        "start_time": 7,
+        "end_time": 12
+      }
+    ],
+    "available_blocks": [
+      {
+        "day": "Martes",
+        "start_time": 7,
+        "end_time": 15
+      },
+      {
+        "day": "Viernes",
+        "start_time": 7,
+        "end_time": 15
+      }
+    ]
+  },
+  {
+    "id": "P_HERNANDEZ_R",
+    "name": "Raúl Hernández",
+    "courses": [
+      "CI-0111",
+      "CI-0115",
+      "CI-0130"
+    ],
+    "max_groups": 3,
+    "course_preferences": [
+      "CI-0111",
+      "CI-0115",
+      "CI-0130"
+    ],
+    "schedule_preferences": [
+      {
+        "day": "Lunes",
+        "start_time": 7,
+        "end_time": 16
+      },
+      {
+        "day": "Jueves",
+        "start_time": 7,
+        "end_time": 15
+      }
+    ],
+    "available_blocks": [
+      {
+        "day": "Lunes",
+        "start_time": 7,
+        "end_time": 18
+      },
+      {
+        "day": "Jueves",
+        "start_time": 7,
+        "end_time": 17
+      }
+    ]
+  },
+  {
+    "id": "P_MUNOZ_A",
+    "name": "Alejandro Muñoz",
+    "courses": [
+      "CI-0112",
+      "CI-0113",
+      "CI-0202",
+      "CI-0137",
+      "CI-0148"
+    ],
+    "max_groups": 4,
+    "course_preferences": [
+      "CI-0112",
+      "CI-0202"
+    ],
+    "schedule_preferences": [
+      {
+        "day": "Lunes",
+        "start_time": 16,
+        "end_time": 18
+      },
+      {
+        "day": "Jueves",
+        "start_time": 15,
+        "end_time": 18
+      },
+      {
+        "day": "Martes",
+        "start_time": 9,
+        "end_time": 18
+      },
+      {
+        "day": "Viernes",
+        "start_time": 9,
+        "end_time": 18
+      }
+    ],
+    "available_blocks": [
+      {
+        "day": "Lunes",
+        "start_time": 14,
+        "end_time": 18
+      },
+      {
+        "day": "Jueves",
+        "start_time": 15,
+        "end_time": 21
+      },
+      {
+        "day": "Martes",
+        "start_time": 7,
+        "end_time": 18
+      },
+      {
+        "day": "Viernes",
+        "start_time": 9,
+        "end_time": 21
+      }
+    ]
+  },
+  {
+    "id": "P_PANDOLFI_M",
+    "name": "Mauricio Pandolfi",
+    "courses": [
+      "CI-0112",
+      "CI-0118",
+      "CI-0202"
+    ],
+    "max_groups": 1,
+    "course_preferences": [
+      "CI-0112"
+    ],
+    "schedule_preferences": [
+      {
+        "day": "Lunes",
+        "start_time": 16,
+        "end_time": 18
+      },
+      {
+        "day": "Jueves",
+        "start_time": 15,
+        "end_time": 18
+      }
+    ],
+    "available_blocks": [
+      {
+        "day": "Lunes",
+        "start_time": 16,
+        "end_time": 20
+      },
+      {
+        "day": "Jueves",
+        "start_time": 13,
+        "end_time": 18
+      }
+    ]
+  },
+  {
+    "id": "P_MAIRENA_A",
+    "name": "Alejandro Mairena",
+    "courses": [
+      "CI-0112"
+    ],
+    "max_groups": 1,
+    "course_preferences": [
+      "CI-0112"
+    ],
+    "schedule_preferences": [
+      {
+        "day": "Lunes",
+        "start_time": 16,
+        "end_time": 18
+      },
+      {
+        "day": "Jueves",
+        "start_time": 15,
+        "end_time": 18
+      }
+    ],
+    "available_blocks": [
+      {
+        "day": "Lunes",
+        "start_time": 14,
+        "end_time": 18
+      },
+      {
+        "day": "Jueves",
+        "start_time": 13,
+        "end_time": 18
+      }
+    ]
+  },
+  {
+    "id": "P_CASASOLA_E",
+    "name": "Edgar Casasola",
+    "courses": [
+      "CI-0113",
+      "CI-0112",
+      "CI-0124"
+    ],
+    "max_groups": 2,
+    "course_preferences": [
+      "CI-0113"
+    ],
+    "schedule_preferences": [
+      {
+        "day": "Lunes",
+        "start_time": 13,
+        "end_time": 18
+      },
+      {
+        "day": "Jueves",
+        "start_time": 13,
+        "end_time": 18
+      }
+    ],
+    "available_blocks": [
+      {
+        "day": "Lunes",
+        "start_time": 13,
+        "end_time": 21
+      },
+      {
+        "day": "Jueves",
+        "start_time": 13,
+        "end_time": 20
+      }
+    ]
+  },
+  {
+    "id": "P_HIDALGO_J",
+    "name": "Jeisson Hidalgo",
+    "courses": [
+      "CI-0113",
+      "CI-0134",
+      "CI-0117",
+      "CI-0111"
+    ],
+    "max_groups": 3,
+    "course_preferences": [
+      "CI-0113",
+      "CI-0134"
+    ],
+    "schedule_preferences": [
+      {
+        "day": "Martes",
+        "start_time": 10,
+        "end_time": 12
+      },
+      {
+        "day": "Viernes",
+        "start_time": 9,
+        "end_time": 12
+      },
+      {
+        "day": "Lunes",
+        "start_time": 10,
+        "end_time": 16
+      },
+      {
+        "day": "Jueves",
+        "start_time": 9,
+        "end_time": 15
+      }
+    ],
+    "available_blocks": [
+      {
+        "day": "Lunes",
+        "start_time": 10,
+        "end_time": 18
+      },
+      {
+        "day": "Martes",
+        "start_time": 7,
+        "end_time": 12
+      },
+      {
+        "day": "Jueves",
+        "start_time": 9,
+        "end_time": 18
+      },
+      {
+        "day": "Viernes",
+        "start_time": 9,
+        "end_time": 14
+      }
+    ]
+  },
+  {
+    "id": "P_ROJAS_A",
+    "name": "Alberto Rojas",
+    "courses": [
+      "CI-0113",
+      "CI-0162",
+      "CI-0112",
+      "CI-0101"
+    ],
+    "max_groups": 2,
+    "course_preferences": [
+      "CI-0113",
+      "CI-0162"
+    ],
+    "schedule_preferences": [
+      {
+        "day": "Martes",
+        "start_time": 16,
+        "end_time": 18
+      },
+      {
+        "day": "Viernes",
+        "start_time": 15,
+        "end_time": 18
+      },
+      {
+        "day": "Lunes",
+        "start_time": 16,
+        "end_time": 18
+      },
+      {
+        "day": "Jueves",
+        "start_time": 15,
+        "end_time": 18
+      }
+    ],
+    "available_blocks": [
+      {
+        "day": "Lunes",
+        "start_time": 16,
+        "end_time": 21
+      },
+      {
+        "day": "Martes",
+        "start_time": 16,
+        "end_time": 21
+      },
+      {
+        "day": "Jueves",
+        "start_time": 13,
+        "end_time": 18
+      },
+      {
+        "day": "Viernes",
+        "start_time": 12,
+        "end_time": 18
+      }
+    ]
+  },
+  {
+    "id": "P_ZELEDON_P",
+    "name": "Peter Zeledón",
+    "courses": [
+      "CI-0114",
+      "CI-0120",
+      "CI-0138"
+    ],
+    "max_groups": 2,
+    "course_preferences": [
+      "CI-0114"
+    ],
+    "schedule_preferences": [
+      {
+        "day": "Lunes",
+        "start_time": 18,
+        "end_time": 21
+      },
+      {
+        "day": "Jueves",
+        "start_time": 18,
+        "end_time": 20
+      },
+      {
+        "day": "Martes",
+        "start_time": 18,
+        "end_time": 21
+      },
+      {
+        "day": "Viernes",
+        "start_time": 18,
+        "end_time": 20
+      }
+    ],
+    "available_blocks": [
+      {
+        "day": "Lunes",
+        "start_time": 16,
+        "end_time": 21
+      },
+      {
+        "day": "Martes",
+        "start_time": 16,
+        "end_time": 21
+      },
+      {
+        "day": "Jueves",
+        "start_time": 16,
+        "end_time": 20
+      },
+      {
+        "day": "Viernes",
+        "start_time": 15,
+        "end_time": 20
+      }
+    ]
+  },
+  {
+    "id": "P_BALTODANO_W",
+    "name": "William Baltodano",
+    "courses": [
+      "CI-0114",
+      "CI-0119",
+      "CI-0144"
+    ],
+    "max_groups": 2,
+    "course_preferences": [
+      "CI-0114",
+      "CI-0119"
+    ],
+    "schedule_preferences": [
+      {
+        "day": "Martes",
+        "start_time": 7,
+        "end_time": 10
+      },
+      {
+        "day": "Viernes",
+        "start_time": 7,
+        "end_time": 9
+      },
+      {
+        "day": "Miércoles",
+        "start_time": 16,
+        "end_time": 18
+      }
+    ],
+    "available_blocks": [
+      {
+        "day": "Martes",
+        "start_time": 7,
+        "end_time": 13
+      },
+      {
+        "day": "Miércoles",
+        "start_time": 16,
+        "end_time": 21
+      },
+      {
+        "day": "Viernes",
+        "start_time": 7,
+        "end_time": 12
+      }
+    ]
+  },
+  {
+    "id": "P_SANDI_M",
+    "name": "Minor Sandí",
+    "courses": [
+      "CI-0114",
+      "CI-0142",
+      "CI-0202"
+    ],
+    "max_groups": 4,
+    "course_preferences": [
+      "CI-0114",
+      "CI-0142",
+      "CI-0202"
+    ],
+    "schedule_preferences": [
+      {
+        "day": "Martes",
+        "start_time": 10,
+        "end_time": 21
+      },
+      {
+        "day": "Viernes",
+        "start_time": 9,
+        "end_time": 20
+      },
+      {
+        "day": "Lunes",
+        "start_time": 7,
+        "end_time": 15
+      },
+      {
+        "day": "Jueves",
+        "start_time": 7,
+        "end_time": 15
+      }
+    ],
+    "available_blocks": [
+      {
+        "day": "Lunes",
+        "start_time": 7,
+        "end_time": 18
+      },
+      {
+        "day": "Martes",
+        "start_time": 8,
+        "end_time": 21
+      },
+      {
+        "day": "Jueves",
+        "start_time": 7,
+        "end_time": 18
+      },
+      {
+        "day": "Viernes",
+        "start_time": 7,
+        "end_time": 20
+      }
+    ]
+  },
+  {
+    "id": "P_PEREZ_B",
+    "name": "Bairon Pérez",
+    "courses": [
+      "CI-0114"
+    ],
+    "max_groups": 1,
+    "course_preferences": [
+      "CI-0114"
+    ],
+    "schedule_preferences": [
+      {
+        "day": "Martes",
+        "start_time": 7,
+        "end_time": 10
+      },
+      {
+        "day": "Viernes",
+        "start_time": 7,
+        "end_time": 9
+      }
+    ],
+    "available_blocks": [
+      {
+        "day": "Martes",
+        "start_time": 7,
+        "end_time": 12
+      },
+      {
+        "day": "Viernes",
+        "start_time": 7,
+        "end_time": 11
+      }
+    ]
+  },
+  {
+    "id": "P_RAMIREZ_K",
+    "name": "Kryscia Ramírez",
+    "courses": [
+      "CI-0115",
+      "CI-0160",
+      "CI-0124"
+    ],
+    "max_groups": 2,
+    "course_preferences": [
+      "CI-0115"
+    ],
+    "schedule_preferences": [
+      {
+        "day": "Lunes",
+        "start_time": 7,
+        "end_time": 12
+      },
+      {
+        "day": "Jueves",
+        "start_time": 7,
+        "end_time": 12
+      }
+    ],
+    "available_blocks": [
+      {
+        "day": "Lunes",
+        "start_time": 7,
+        "end_time": 14
+      },
+      {
+        "day": "Jueves",
+        "start_time": 7,
+        "end_time": 14
+      }
+    ]
+  },
+  {
+    "id": "P_BERROCAL_A",
+    "name": "Allan Berrocal",
+    "courses": [
+      "CI-0116",
+      "CI-0127",
+      "CI-0141"
+    ],
+    "max_groups": 2,
+    "course_preferences": [
+      "CI-0116"
+    ],
+    "schedule_preferences": [
+      {
+        "day": "Martes",
+        "start_time": 10,
+        "end_time": 16
+      },
+      {
+        "day": "Viernes",
+        "start_time": 9,
+        "end_time": 15
+      },
+      {
+        "day": "Miércoles",
+        "start_time": 13,
+        "end_time": 15
+      }
+    ],
+    "available_blocks": [
+      {
+        "day": "Martes",
+        "start_time": 10,
+        "end_time": 19
+      },
+      {
+        "day": "Viernes",
+        "start_time": 9,
+        "end_time": 18
+      }
+    ]
+  },
+  {
+    "id": "P_MOYA_S",
+    "name": "Sergio Moya",
+    "courses": [
+      "CI-0116",
+      "CI-0146",
+      "CI-0118",
+      "CI-0120"
+    ],
+    "max_groups": 1,
+    "course_preferences": [
+      "CI-0116"
+    ],
+    "schedule_preferences": [
+      {
+        "day": "Lunes",
+        "start_time": 16,
+        "end_time": 18
+      },
+      {
+        "day": "Jueves",
+        "start_time": 15,
+        "end_time": 18
+      }
+    ],
+    "available_blocks": [
+      {
+        "day": "Lunes",
+        "start_time": 16,
+        "end_time": 21
+      },
+      {
+        "day": "Jueves",
+        "start_time": 15,
+        "end_time": 20
+      }
+    ]
+  },
+  {
+    "id": "P_SOLANO_B",
+    "name": "Braulio Solano",
+    "courses": [
+      "CI-0116",
+      "CI-0118",
+      "CI-0119",
+      "CI-0135"
+    ],
+    "max_groups": 3,
+    "course_preferences": [
+      "CI-0116",
+      "CI-0118",
+      "CI-0119"
+    ],
+    "schedule_preferences": [
+      {
+        "day": "Martes",
+        "start_time": 10,
+        "end_time": 16
+      },
+      {
+        "day": "Viernes",
+        "start_time": 9,
+        "end_time": 15
+      },
+      {
+        "day": "Miércoles",
+        "start_time": 13,
+        "end_time": 15
+      }
+    ],
+    "available_blocks": [
+      {
+        "day": "Martes",
+        "start_time": 10,
+        "end_time": 19
+      },
+      {
+        "day": "Miércoles",
+        "start_time": 11,
+        "end_time": 15
+      },
+      {
+        "day": "Viernes",
+        "start_time": 9,
+        "end_time": 18
+      }
+    ]
+  },
+  {
+    "id": "P_ANGULO_S",
+    "name": "Sleyter Angulo",
+    "courses": [
+      "CI-0117",
+      "CI-0128",
+      "CI-0141",
+      "CI-0161",
+      "CI-0118",
+      "CI-0119"
+    ],
+    "max_groups": 4,
+    "course_preferences": [
+      "CI-0117",
+      "CI-0128",
+      "CI-0141",
+      "CI-0161"
+    ],
+    "schedule_preferences": [
+      {
+        "day": "Martes",
+        "start_time": 7,
+        "end_time": 10
+      },
+      {
+        "day": "Viernes",
+        "start_time": 7,
+        "end_time": 9
+      },
+      {
+        "day": "Miércoles",
+        "start_time": 7,
+        "end_time": 10
+      },
+      {
+        "day": "Lunes",
+        "start_time": 7,
+        "end_time": 18
+      },
+      {
+        "day": "Jueves",
+        "start_time": 7,
+        "end_time": 18
+      }
+    ],
+    "available_blocks": [
+      {
+        "day": "Lunes",
+        "start_time": 7,
+        "end_time": 21
+      },
+      {
+        "day": "Martes",
+        "start_time": 7,
+        "end_time": 13
+      },
+      {
+        "day": "Miércoles",
+        "start_time": 7,
+        "end_time": 12
+      },
+      {
+        "day": "Jueves",
+        "start_time": 7,
+        "end_time": 21
+      },
+      {
+        "day": "Viernes",
+        "start_time": 7,
+        "end_time": 12
+      }
+    ]
+  },
+  {
+    "id": "P_RUCZICA_J",
+    "name": "Josef Ruczica",
+    "courses": [
+      "CI-0117",
+      "CI-0116",
+      "CI-0202"
+    ],
+    "max_groups": 1,
+    "course_preferences": [
+      "CI-0117"
+    ],
+    "schedule_preferences": [
+      {
+        "day": "Martes",
+        "start_time": 7,
+        "end_time": 10
+      },
+      {
+        "day": "Viernes",
+        "start_time": 7,
+        "end_time": 9
+      }
+    ],
+    "available_blocks": [
+      {
+        "day": "Martes",
+        "start_time": 7,
+        "end_time": 13
+      },
+      {
+        "day": "Viernes",
+        "start_time": 7,
+        "end_time": 11
+      }
+    ]
+  },
+  {
+    "id": "P_ASCH_C",
+    "name": "Christian Asch",
+    "courses": [
+      "CI-0117"
+    ],
+    "max_groups": 1,
+    "course_preferences": [
+      "CI-0117"
+    ],
+    "schedule_preferences": [
+      {
+        "day": "Lunes",
+        "start_time": 16,
+        "end_time": 18
+      },
+      {
+        "day": "Jueves",
+        "start_time": 15,
+        "end_time": 18
+      }
+    ],
+    "available_blocks": [
+      {
+        "day": "Lunes",
+        "start_time": 16,
+        "end_time": 21
+      },
+      {
+        "day": "Jueves",
+        "start_time": 15,
+        "end_time": 21
+      }
+    ]
+  },
+  {
+    "id": "P_PIEDRA_A",
+    "name": "Antonio Piedra",
+    "courses": [
+      "CI-0118",
+      "CI0108",
+      "CI-0202",
+      "CI-0111",
+      "CI-0130",
+      "CI-0116"
+    ],
+    "max_groups": 4,
+    "course_preferences": [
+      "CI-0118",
+      "CI0108",
+      "CI-0202"
+    ],
+    "schedule_preferences": [
+      {
+        "day": "Lunes",
+        "start_time": 7,
+        "end_time": 15
+      },
+      {
+        "day": "Jueves",
+        "start_time": 7,
+        "end_time": 15
+      },
+      {
+        "day": "Martes",
+        "start_time": 9,
+        "end_time": 15
+      },
+      {
+        "day": "Viernes",
+        "start_time": 9,
+        "end_time": 15
+      }
+    ],
+    "available_blocks": [
+      {
+        "day": "Lunes",
+        "start_time": 7,
+        "end_time": 18
+      },
+      {
+        "day": "Martes",
+        "start_time": 9,
+        "end_time": 18
+      },
+      {
+        "day": "Jueves",
+        "start_time": 7,
+        "end_time": 18
+      },
+      {
+        "day": "Viernes",
+        "start_time": 7,
+        "end_time": 15
+      }
+    ]
+  },
+  {
+    "id": "P_ANGLADA_L",
+    "name": "Leonor Anglada",
+    "courses": [
+      "CI-0120",
+      "CI-0114",
+      "CI-0202"
+    ],
+    "max_groups": 1,
+    "course_preferences": [
+      "CI-0120"
+    ],
+    "schedule_preferences": [
+      {
+        "day": "Martes",
+        "start_time": 10,
+        "end_time": 12
+      },
+      {
+        "day": "Viernes",
+        "start_time": 9,
+        "end_time": 12
+      }
+    ],
+    "available_blocks": [
+      {
+        "day": "Martes",
+        "start_time": 10,
+        "end_time": 14
+      },
+      {
+        "day": "Viernes",
+        "start_time": 9,
+        "end_time": 14
+      }
+    ]
+  },
+  {
+    "id": "P_ALPIZAR_A",
+    "name": "Amanda Alpízar",
+    "courses": [
+      "CI-0121",
+      "CI-0123",
+      "CI-0122"
+    ],
+    "max_groups": 2,
+    "course_preferences": [
+      "CI-0121",
+      "CI-0123"
+    ],
+    "schedule_preferences": [
+      {
+        "day": "Viernes",
+        "start_time": 15,
+        "end_time": 21
+      },
+      {
+        "day": "Martes",
+        "start_time": 16,
+        "end_time": 18
+      }
+    ],
+    "available_blocks": [
+      {
+        "day": "Martes",
+        "start_time": 16,
+        "end_time": 20
+      },
+      {
+        "day": "Viernes",
+        "start_time": 13,
+        "end_time": 21
+      }
+    ]
+  },
+  {
+    "id": "P_MURCIA_M",
+    "name": "Maeva Murcia",
+    "courses": [
+      "CI-0121",
+      "CI-0123",
+      "CI-0113",
+      "CI-0128"
+    ],
+    "max_groups": 3,
+    "course_preferences": [
+      "CI-0121",
+      "CI-0123"
+    ],
+    "schedule_preferences": [
+      {
+        "day": "Miércoles",
+        "start_time": 9,
+        "end_time": 16
+      },
+      {
+        "day": "Martes",
+        "start_time": 10,
+        "end_time": 12
+      },
+      {
+        "day": "Viernes",
+        "start_time": 9,
+        "end_time": 12
+      }
+    ],
+    "available_blocks": [
+      {
+        "day": "Martes",
+        "start_time": 10,
+        "end_time": 14
+      },
+      {
+        "day": "Miércoles",
+        "start_time": 9,
+        "end_time": 19
+      },
+      {
+        "day": "Viernes",
+        "start_time": 7,
+        "end_time": 12
+      }
+    ]
+  },
+  {
+    "id": "P_GANG_R",
+    "name": "Ricardo Gang",
+    "courses": [
+      "CI-0122",
+      "CI-0123",
+      "CI-0129",
+      "CI-0146"
+    ],
+    "max_groups": 3,
+    "course_preferences": [
+      "CI-0122",
+      "CI-0123",
+      "CI-0129"
+    ],
+    "schedule_preferences": [
+      {
+        "day": "Martes",
+        "start_time": 10,
+        "end_time": 18
+      },
+      {
+        "day": "Viernes",
+        "start_time": 9,
+        "end_time": 18
+      }
+    ],
+    "available_blocks": [
+      {
+        "day": "Martes",
+        "start_time": 8,
+        "end_time": 18
+      },
+      {
+        "day": "Viernes",
+        "start_time": 9,
+        "end_time": 21
+      }
+    ]
+  },
+  {
+    "id": "P_ARROYO_F",
+    "name": "Francisco Arroyo",
+    "courses": [
+      "CI-0122",
+      "CI-0123",
+      "CI-0117",
+      "CI-0121"
+    ],
+    "max_groups": 4,
+    "course_preferences": [
+      "CI-0122",
+      "CI-0123"
+    ],
+    "schedule_preferences": [
+      {
+        "day": "Martes",
+        "start_time": 10,
+        "end_time": 19
+      },
+      {
+        "day": "Viernes",
+        "start_time": 9,
+        "end_time": 18
+      }
+    ],
+    "available_blocks": [
+      {
+        "day": "Martes",
+        "start_time": 7,
+        "end_time": 19
+      },
+      {
+        "day": "Viernes",
+        "start_time": 9,
+        "end_time": 21
+      }
+    ]
+  },
+  {
+    "id": "P_MORA_A",
+    "name": "Ariel Mora",
+    "courses": [
+      "CI-0123",
+      "CI-0144",
+      "CI-0155",
+      "CI-0125",
+      "CI-0138",
+      "CI-0160"
+    ],
+    "max_groups": 3,
+    "course_preferences": [
+      "CI-0123",
+      "CI-0144",
+      "CI-0155"
+    ],
+    "schedule_preferences": [
+      {
+        "day": "Martes",
+        "start_time": 13,
+        "end_time": 16
+      },
+      {
+        "day": "Viernes",
+        "start_time": 13,
+        "end_time": 15
+      },
+      {
+        "day": "Lunes",
+        "start_time": 10,
+        "end_time": 16
+      },
+      {
+        "day": "Jueves",
+        "start_time": 9,
+        "end_time": 15
+      }
+    ],
+    "available_blocks": [
+      {
+        "day": "Lunes",
+        "start_time": 8,
+        "end_time": 16
+      },
+      {
+        "day": "Martes",
+        "start_time": 13,
+        "end_time": 19
+      },
+      {
+        "day": "Jueves",
+        "start_time": 7,
+        "end_time": 15
+      },
+      {
+        "day": "Viernes",
+        "start_time": 10,
+        "end_time": 15
+      }
+    ]
+  },
+  {
+    "id": "P_MURILLO_M",
+    "name": "Maureen Murillo",
+    "courses": [
+      "CI-0124",
+      "CI-0129",
+      "CI-0133"
+    ],
+    "max_groups": 2,
+    "course_preferences": [
+      "CI-0124"
+    ],
+    "schedule_preferences": [
+      {
+        "day": "Lunes",
+        "start_time": 7,
+        "end_time": 12
+      },
+      {
+        "day": "Jueves",
+        "start_time": 7,
+        "end_time": 12
+      }
+    ],
+    "available_blocks": [
+      {
+        "day": "Lunes",
+        "start_time": 7,
+        "end_time": 15
+      },
+      {
+        "day": "Jueves",
+        "start_time": 7,
+        "end_time": 14
+      }
+    ]
+  },
+  {
+    "id": "P_QUESADA_C",
+    "name": "Christian Quesada",
+    "courses": [
+      "CI-0126",
+      "CI-0128",
+      "CI-0164",
+      "CI-0136"
+    ],
+    "max_groups": 2,
+    "course_preferences": [
+      "CI-0126",
+      "CI-0128"
+    ],
+    "schedule_preferences": [
+      {
+        "day": "Lunes",
+        "start_time": 10,
+        "end_time": 12
+      },
+      {
+        "day": "Jueves",
+        "start_time": 9,
+        "end_time": 12
+      },
+      {
+        "day": "Miércoles",
+        "start_time": 10,
+        "end_time": 13
+      }
+    ],
+    "available_blocks": [
+      {
+        "day": "Lunes",
+        "start_time": 8,
+        "end_time": 12
+      },
+      {
+        "day": "Miércoles",
+        "start_time": 7,
+        "end_time": 13
+      },
+      {
+        "day": "Jueves",
+        "start_time": 9,
+        "end_time": 14
+      }
+    ]
+  },
+  {
+    "id": "P_OBANDO_R",
+    "name": "Rebeca Obando",
+    "courses": [
+      "CI-0126",
+      "CI-0128",
+      "CI-0142"
+    ],
+    "max_groups": 2,
+    "course_preferences": [
+      "CI-0126",
+      "CI-0128"
+    ],
+    "schedule_preferences": [
+      {
+        "day": "Lunes",
+        "start_time": 18,
+        "end_time": 21
+      },
+      {
+        "day": "Jueves",
+        "start_time": 18,
+        "end_time": 20
+      },
+      {
+        "day": "Miércoles",
+        "start_time": 17,
+        "end_time": 20
+      }
+    ],
+    "available_blocks": [
+      {
+        "day": "Lunes",
+        "start_time": 15,
+        "end_time": 21
+      },
+      {
+        "day": "Miércoles",
+        "start_time": 15,
+        "end_time": 20
+      },
+      {
+        "day": "Jueves",
+        "start_time": 15,
+        "end_time": 20
+      }
+    ]
+  },
+  {
+    "id": "P_MURILLO_I",
+    "name": "Isabel Murillo",
+    "courses": [
+      "CI-0126",
+      "CI-0135",
+      "CI-0140"
+    ],
+    "max_groups": 2,
+    "course_preferences": [
+      "CI-0126",
+      "CI-0135"
+    ],
+    "schedule_preferences": [
+      {
+        "day": "Lunes",
+        "start_time": 7,
+        "end_time": 12
+      },
+      {
+        "day": "Jueves",
+        "start_time": 7,
+        "end_time": 12
+      }
+    ],
+    "available_blocks": [
+      {
+        "day": "Lunes",
+        "start_time": 7,
+        "end_time": 14
+      },
+      {
+        "day": "Jueves",
+        "start_time": 7,
+        "end_time": 15
+      }
+    ]
+  },
+  {
+    "id": "P_SALAS_LC",
+    "name": "Luis Carlos Salas",
+    "courses": [
+      "CI-0127",
+      "CI-0128",
+      "CI-0141"
+    ],
+    "max_groups": 3,
+    "course_preferences": [
+      "CI-0127",
+      "CI-0128",
+      "CI-0141"
+    ],
+    "schedule_preferences": [
+      {
+        "day": "Lunes",
+        "start_time": 16,
+        "end_time": 21
+      },
+      {
+        "day": "Jueves",
+        "start_time": 15,
+        "end_time": 20
+      },
+      {
+        "day": "Miércoles",
+        "start_time": 10,
+        "end_time": 13
+      }
+    ],
+    "available_blocks": [
+      {
+        "day": "Lunes",
+        "start_time": 14,
+        "end_time": 21
+      },
+      {
+        "day": "Miércoles",
+        "start_time": 10,
+        "end_time": 16
+      },
+      {
+        "day": "Jueves",
+        "start_time": 12,
+        "end_time": 20
+      }
+    ]
+  },
+  {
+    "id": "P_SANCHEZ_R",
+    "name": "Ricardo Sánchez",
+    "courses": [
+      "CI-0127",
+      "CI-0128",
+      "CI-0141"
+    ],
+    "max_groups": 2,
+    "course_preferences": [
+      "CI-0127",
+      "CI-0128"
+    ],
+    "schedule_preferences": [
+      {
+        "day": "Lunes",
+        "start_time": 7,
+        "end_time": 10
+      },
+      {
+        "day": "Jueves",
+        "start_time": 7,
+        "end_time": 9
+      },
+      {
+        "day": "Miércoles",
+        "start_time": 17,
+        "end_time": 20
+      }
+    ],
+    "available_blocks": [
+      {
+        "day": "Lunes",
+        "start_time": 7,
+        "end_time": 12
+      },
+      {
+        "day": "Miércoles",
+        "start_time": 14,
+        "end_time": 20
+      },
+      {
+        "day": "Jueves",
+        "start_time": 7,
+        "end_time": 12
+      }
+    ]
+  },
+  {
+    "id": "P_MATA_L",
+    "name": "Luis Mata",
+    "courses": [
+      "CI-0127",
+      "CI-0128",
+      "CI-0141",
+      "CI-0143"
+    ],
+    "max_groups": 2,
+    "course_preferences": [
+      "CI-0127",
+      "CI-0128"
+    ],
+    "schedule_preferences": [
+      {
+        "day": "Martes",
+        "start_time": 18,
+        "end_time": 21
+      },
+      {
+        "day": "Viernes",
+        "start_time": 18,
+        "end_time": 21
+      },
+      {
+        "day": "Miércoles",
+        "start_time": 7,
+        "end_time": 10
+      }
+    ],
+    "available_blocks": [
+      {
+        "day": "Martes",
+        "start_time": 15,
+        "end_time": 21
+      },
+      {
+        "day": "Miércoles",
+        "start_time": 7,
+        "end_time": 12
+      },
+      {
+        "day": "Viernes",
+        "start_time": 16,
+        "end_time": 21
+      }
+    ]
+  },
+  {
+    "id": "P_DIAZ_I",
+    "name": "Ignacio Díaz",
+    "courses": [
+      "CI-0131",
+      "CI-0115",
+      "CI-0124"
+    ],
+    "max_groups": 1,
+    "course_preferences": [
+      "CI-0131"
+    ],
+    "schedule_preferences": [
+      {
+        "day": "Lunes",
+        "start_time": 13,
+        "end_time": 16
+      },
+      {
+        "day": "Jueves",
+        "start_time": 13,
+        "end_time": 15
+      }
+    ],
+    "available_blocks": [
+      {
+        "day": "Lunes",
+        "start_time": 10,
+        "end_time": 16
+      },
+      {
+        "day": "Jueves",
+        "start_time": 13,
+        "end_time": 18
+      }
+    ]
+  },
+  {
+    "id": "P_LEMAITRE_R",
+    "name": "Roberto Lemaitre",
+    "courses": [
+      "CI-0133",
+      "CI-0134",
+      "CI-0145"
+    ],
+    "max_groups": 1,
+    "course_preferences": [
+      "CI-0133"
+    ],
+    "schedule_preferences": [
+      {
+        "day": "Lunes",
+        "start_time": 18,
+        "end_time": 21
+      },
+      {
+        "day": "Jueves",
+        "start_time": 18,
+        "end_time": 20
+      },
+      {
+        "day": "Martes",
+        "start_time": 18,
+        "end_time": 21
+      },
+      {
+        "day": "Viernes",
+        "start_time": 18,
+        "end_time": 20
+      }
+    ],
+    "available_blocks": [
+      {
+        "day": "Lunes",
+        "start_time": 15,
+        "end_time": 21
+      },
+      {
+        "day": "Jueves",
+        "start_time": 16,
+        "end_time": 20
+      }
+    ]
+  },
+  {
+    "id": "P_BARQUERO_A",
+    "name": "Alexander Barquero",
+    "courses": [
+      "CI-0133",
+      "CI-0112",
+      "CI-0140"
+    ],
+    "max_groups": 1,
+    "course_preferences": [
+      "CI-0133"
+    ],
+    "schedule_preferences": [
+      {
+        "day": "Martes",
+        "start_time": 10,
+        "end_time": 12
+      },
+      {
+        "day": "Viernes",
+        "start_time": 9,
+        "end_time": 12
+      }
+    ],
+    "available_blocks": [
+      {
+        "day": "Martes",
+        "start_time": 8,
+        "end_time": 12
+      },
+      {
+        "day": "Viernes",
+        "start_time": 9,
+        "end_time": 15
+      }
+    ]
+  },
+  {
+    "id": "P_MARTINEZ_ALEX",
+    "name": "Alexander Martínez",
+    "courses": [
+      "CI-0133"
+    ],
+    "max_groups": 1,
+    "course_preferences": [
+      "CI-0133"
+    ],
+    "schedule_preferences": [
+      {
+        "day": "Martes",
+        "start_time": 16,
+        "end_time": 18
+      },
+      {
+        "day": "Viernes",
+        "start_time": 15,
+        "end_time": 18
+      }
+    ],
+    "available_blocks": [
+      {
+        "day": "Martes",
+        "start_time": 13,
+        "end_time": 18
+      },
+      {
+        "day": "Viernes",
+        "start_time": 13,
+        "end_time": 18
+      }
+    ]
+  },
+  {
+    "id": "P_CABEZAS_D",
+    "name": "Daniel Cabezas",
+    "courses": [
+      "CI-0136",
+      "CI-0137",
+      "CI-0140",
+      "CI-0202",
+      "CI-0111",
+      "CI-0121"
+    ],
+    "max_groups": 4,
+    "course_preferences": [
+      "CI-0136",
+      "CI-0137",
+      "CI-0140",
+      "CI-0202"
+    ],
+    "schedule_preferences": [
+      {
+        "day": "Martes",
+        "start_time": 7,
+        "end_time": 17
+      },
+      {
+        "day": "Viernes",
+        "start_time": 7,
+        "end_time": 17
+      },
+      {
+        "day": "Lunes",
+        "start_time": 10,
+        "end_time": 12
+      },
+      {
+        "day": "Jueves",
+        "start_time": 9,
+        "end_time": 12
+      }
+    ],
+    "available_blocks": [
+      {
+        "day": "Lunes",
+        "start_time": 7,
+        "end_time": 12
+      },
+      {
+        "day": "Martes",
+        "start_time": 7,
+        "end_time": 19
+      },
+      {
+        "day": "Jueves",
+        "start_time": 7,
+        "end_time": 12
+      }
+    ]
+  },
+  {
+    "id": "P_NOGUERA_V",
+    "name": "Víctor Noguera",
+    "courses": [
+      "CI-0138",
+      "CI-0159",
+      "CI-0121",
+      "CI-0123"
+    ],
+    "max_groups": 1,
+    "course_preferences": [
+      "CI-0138"
+    ],
+    "schedule_preferences": [
+      {
+        "day": "Martes",
+        "start_time": 18,
+        "end_time": 21
+      },
+      {
+        "day": "Viernes",
+        "start_time": 18,
+        "end_time": 20
+      }
+    ],
+    "available_blocks": [
+      {
+        "day": "Martes",
+        "start_time": 15,
+        "end_time": 21
+      },
+      {
+        "day": "Viernes",
+        "start_time": 16,
+        "end_time": 20
+      }
+    ]
+  },
+  {
+    "id": "P_HERNANDEZ_C",
+    "name": "Carmen Hernández",
+    "courses": [
+      "CI-0139",
+      "CI-0133",
+      "CI-0145"
+    ],
+    "max_groups": 1,
+    "course_preferences": [
+      "CI-0139"
+    ],
+    "schedule_preferences": [
+      {
+        "day": "Martes",
+        "start_time": 16,
+        "end_time": 18
+      },
+      {
+        "day": "Viernes",
+        "start_time": 15,
+        "end_time": 18
+      }
+    ],
+    "available_blocks": [
+      {
+        "day": "Martes",
+        "start_time": 14,
+        "end_time": 18
+      },
+      {
+        "day": "Viernes",
+        "start_time": 15,
+        "end_time": 21
+      }
+    ]
+  },
+  {
+    "id": "P_VILLALON_R",
+    "name": "Ricardo Villalón",
+    "courses": [
+      "CI-0143",
+      "CI-0144",
+      "CI-0121"
+    ],
+    "max_groups": 1,
+    "course_preferences": [
+      "CI-0143"
+    ],
+    "schedule_preferences": [
+      {
+        "day": "Martes",
+        "start_time": 13,
+        "end_time": 16
+      },
+      {
+        "day": "Viernes",
+        "start_time": 13,
+        "end_time": 15
+      }
+    ],
+    "available_blocks": [
+      {
+        "day": "Martes",
+        "start_time": 11,
+        "end_time": 16
+      },
+      {
+        "day": "Viernes",
+        "start_time": 11,
+        "end_time": 15
+      }
+    ]
+  },
+  {
+    "id": "P_DUARTE_M",
+    "name": "Mauricio Duarte",
+    "courses": [
+      "CI-0143",
+      "CI-0121",
+      "CI-0122"
+    ],
+    "max_groups": 1,
+    "course_preferences": [
+      "CI-0143"
+    ],
+    "schedule_preferences": [
+      {
+        "day": "Lunes",
+        "start_time": 16,
+        "end_time": 18
+      },
+      {
+        "day": "Jueves",
+        "start_time": 15,
+        "end_time": 18
+      }
+    ],
+    "available_blocks": [
+      {
+        "day": "Lunes",
+        "start_time": 13,
+        "end_time": 18
+      },
+      {
+        "day": "Jueves",
+        "start_time": 15,
+        "end_time": 20
+      }
+    ]
+  },
+  {
+    "id": "P_ESQUIVEL_G",
+    "name": "Gustavo Esquivel",
+    "courses": [
+      "CI-0156"
+    ],
+    "max_groups": 1,
+    "course_preferences": [
+      "CI-0156"
+    ],
+    "schedule_preferences": [
+      {
+        "day": "Lunes",
+        "start_time": 10,
+        "end_time": 12
+      },
+      {
+        "day": "Jueves",
+        "start_time": 9,
+        "end_time": 12
+      }
+    ],
+    "available_blocks": [
+      {
+        "day": "Lunes",
+        "start_time": 8,
+        "end_time": 12
+      },
+      {
+        "day": "Jueves",
+        "start_time": 9,
+        "end_time": 15
+      }
+    ]
+  },
+  {
+    "id": "P_ARAYA_G",
+    "name": "Gabriela Araya",
+    "courses": [
+      "CI-0101",
+      "CI-0202",
+      "CI-0112"
+    ],
+    "max_groups": 1,
+    "course_preferences": [
+      "CI-0101"
+    ],
+    "schedule_preferences": [
+      {
+        "day": "Lunes",
+        "start_time": 13,
+        "end_time": 15
+      },
+      {
+        "day": "Jueves",
+        "start_time": 13,
+        "end_time": 15
+      }
+    ],
+    "available_blocks": [
+      {
+        "day": "Lunes",
+        "start_time": 11,
+        "end_time": 15
+      },
+      {
+        "day": "Jueves",
+        "start_time": 13,
+        "end_time": 18
+      }
+    ]
+  },
+  {
+    "id": "P_SEGURA_R",
+    "name": "Rafael Segura",
+    "courses": [
+      "CI-0101",
+      "CI-0115",
+      "CI-0111"
+    ],
+    "max_groups": 1,
+    "course_preferences": [
+      "CI-0101"
+    ],
+    "schedule_preferences": [
+      {
+        "day": "Lunes",
+        "start_time": 17,
+        "end_time": 19
+      },
+      {
+        "day": "Jueves",
+        "start_time": 17,
+        "end_time": 19
+      }
+    ],
+    "available_blocks": [
+      {
+        "day": "Lunes",
+        "start_time": 14,
+        "end_time": 19
+      },
+      {
+        "day": "Jueves",
+        "start_time": 14,
+        "end_time": 19
+      }
+    ]
+  },
+  {
+    "id": "P_VILCHEZ_E",
+    "name": "Enrique Vílchez",
+    "courses": [
+      "CI-0202",
+      "CI-0101",
+      "CI-0112"
+    ],
+    "max_groups": 1,
+    "course_preferences": [
+      "CI-0202"
+    ],
+    "schedule_preferences": [
+      {
+        "day": "Lunes",
+        "start_time": 13,
+        "end_time": 15
+      },
+      {
+        "day": "Jueves",
+        "start_time": 13,
+        "end_time": 15
+      }
+    ],
+    "available_blocks": [
+      {
+        "day": "Lunes",
+        "start_time": 11,
+        "end_time": 15
+      },
+      {
+        "day": "Jueves",
+        "start_time": 13,
+        "end_time": 17
+      }
+    ]
+  },
+  {
+    "id": "P_GARCIA_P",
+    "name": "Pablo García",
+    "courses": [
+      "CI-0202",
+      "CI-0111",
+      "CI-0112"
+    ],
+    "max_groups": 1,
+    "course_preferences": [
+      "CI-0202"
+    ],
+    "schedule_preferences": [
+      {
+        "day": "Martes",
+        "start_time": 7,
+        "end_time": 9
+      },
+      {
+        "day": "Viernes",
+        "start_time": 7,
+        "end_time": 9
+      }
+    ],
+    "available_blocks": [
+      {
+        "day": "Martes",
+        "start_time": 7,
+        "end_time": 11
+      },
+      {
+        "day": "Viernes",
+        "start_time": 7,
+        "end_time": 11
+      }
+    ]
+  },
+  {
+    "id": "P_OROZCO_D",
+    "name": "Diego Orozco",
+    "courses": [
+      "CI-0202",
+      "CI-0112",
+      "CI-0101"
+    ],
+    "max_groups": 1,
+    "course_preferences": [
+      "CI-0202"
+    ],
+    "schedule_preferences": [
+      {
+        "day": "Martes",
+        "start_time": 17,
+        "end_time": 19
+      },
+      {
+        "day": "Viernes",
+        "start_time": 17,
+        "end_time": 19
+      }
+    ],
+    "available_blocks": [
+      {
+        "day": "Martes",
+        "start_time": 14,
+        "end_time": 19
+      },
+      {
+        "day": "Viernes",
+        "start_time": 17,
+        "end_time": 21
+      }
+    ]
+  },
+  {
+    "id": "P_URENA_C",
+    "name": "Carlos Ureña",
+    "courses": [
+      "CI-0202",
+      "CI-0112",
+      "CI-0101"
+    ],
+    "max_groups": 1,
+    "course_preferences": [
+      "CI-0202"
+    ],
+    "schedule_preferences": [
+      {
+        "day": "Lunes",
+        "start_time": 17,
+        "end_time": 19
+      },
+      {
+        "day": "Jueves",
+        "start_time": 17,
+        "end_time": 19
+      }
+    ],
+    "available_blocks": [
+      {
+        "day": "Lunes",
+        "start_time": 14,
+        "end_time": 19
+      },
+      {
+        "day": "Jueves",
+        "start_time": 14,
+        "end_time": 19
+      }
+    ]
+  },
+  {
+    "id": "P_LI_R",
+    "name": "Rodrigo Li",
+    "courses": [
+      "CI-0202",
+      "CI-0112",
+      "CI-0126",
+      "CI-0137"
+    ],
+    "max_groups": 1,
+    "course_preferences": [
+      "CI-0202"
+    ],
+    "schedule_preferences": [
+      {
+        "day": "Martes",
+        "start_time": 7,
+        "end_time": 9
+      },
+      {
+        "day": "Viernes",
+        "start_time": 7,
+        "end_time": 9
+      }
+    ],
+    "available_blocks": [
+      {
+        "day": "Martes",
+        "start_time": 7,
+        "end_time": 11
+      },
+      {
+        "day": "Viernes",
+        "start_time": 7,
+        "end_time": 11
+      }
+    ]
+  },
+  {
+    "id": "P_BRICENO_K",
+    "name": "Kenneth Briceño",
+    "courses": [
+      "CI-0202"
+    ],
+    "max_groups": 1,
+    "course_preferences": [
+      "CI-0202"
+    ],
+    "schedule_preferences": [
+      {
+        "day": "Lunes",
+        "start_time": 9,
+        "end_time": 11
+      },
+      {
+        "day": "Jueves",
+        "start_time": 9,
+        "end_time": 11
+      }
+    ],
+    "available_blocks": [
+      {
+        "day": "Lunes",
+        "start_time": 9,
+        "end_time": 14
+      },
+      {
+        "day": "Jueves",
+        "start_time": 9,
+        "end_time": 13
+      }
+    ]
+  }
+]

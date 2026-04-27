@@ -1,0 +1,322 @@
+[
+  {
+    "id": "CI-0101",
+    "name": "Introducción al Procesamiento de Microcomputadores",
+    "semester": 0,
+    "hours": 4,
+    "lab": false,
+    "groups": 2
+  },
+  {
+    "id": "CI-0110",
+    "name": "Introducción a la Computación",
+    "semester": 1,
+    "hours": 5,
+    "lab": false,
+    "groups": 9
+  },
+  {
+    "id": "CI-0111",
+    "name": "Estructuras Discretas",
+    "semester": 2,
+    "hours": 5,
+    "lab": false,
+    "groups": 3
+  },
+  {
+    "id": "CI-0112",
+    "name": "Programación I",
+    "semester": 2,
+    "hours": 5,
+    "lab": false,
+    "groups": 5
+  },
+  {
+    "id": "CI-0113",
+    "name": "Programación II",
+    "semester": 3,
+    "hours": 5,
+    "lab": false,
+    "groups": 6
+  },
+  {
+    "id": "CI-0114",
+    "name": "Fundamentos de Arquitectura",
+    "semester": 3,
+    "hours": 5,
+    "lab": false,
+    "groups": 5
+  },
+  {
+    "id": "CI-0115",
+    "name": "Probabilidad y Estadística",
+    "semester": 4,
+    "hours": 5,
+    "lab": false,
+    "groups": 3
+  },
+  {
+    "id": "CI-0116",
+    "name": "Análisis de Algoritmos",
+    "semester": 4,
+    "hours": 5,
+    "lab": false,
+    "groups": 4
+  },
+  {
+    "id": "CI-0117",
+    "name": "Programación Paralela y Concurrente",
+    "semester": 4,
+    "hours": 5,
+    "lab": true,
+    "groups": 4
+  },
+  {
+    "id": "CI-0118",
+    "name": "Lenguaje Ensamblador",
+    "semester": 4,
+    "hours": 5,
+    "lab": false,
+    "groups": 2
+  },
+  {
+    "id": "CI-0119",
+    "name": "PI Arqui y Ensamblador",
+    "semester": 4,
+    "hours": 2,
+    "lab": false,
+    "groups": 2
+  },
+  {
+    "id": "CI-0120",
+    "name": "Arquitectura de Computadoras",
+    "semester": 7,
+    "hours": 5,
+    "lab": false,
+    "groups": 1
+  },
+  {
+    "id": "CI-0121",
+    "name": "Redes de Comunicación de Datos",
+    "semester": 5,
+    "hours": 3,
+    "lab": false,
+    "groups": 3
+  },
+  {
+    "id": "CI-0122",
+    "name": "Sistemas Operativos",
+    "semester": 5,
+    "hours": 3,
+    "lab": false,
+    "groups": 3
+  },
+  {
+    "id": "CI-0123",
+    "name": "PI Redes y Sistemas Operativos",
+    "semester": 5,
+    "hours": 3,
+    "lab": true,
+    "groups": 3
+  },
+  {
+    "id": "CI-0124",
+    "name": "Computabilidad y Complejidad",
+    "semester": 5,
+    "hours": 5,
+    "lab": false,
+    "groups": 2
+  },
+  {
+    "id": "CI-0126",
+    "name": "Ingeniería de Software",
+    "semester": 6,
+    "hours": 5,
+    "lab": false,
+    "groups": 3
+  },
+  {
+    "id": "CI-0127",
+    "name": "Bases de Datos",
+    "semester": 6,
+    "hours": 5,
+    "lab": false,
+    "groups": 3
+  },
+  {
+    "id": "CI-0128",
+    "name": "PI Ingeniería y Bases de Datos",
+    "semester": 6,
+    "hours": 3,
+    "lab": true,
+    "groups": 3
+  },
+  {
+    "id": "CI-0129",
+    "name": "Inteligencia Artificial",
+    "semester": 6,
+    "hours": 5,
+    "lab": false,
+    "groups": 1
+  },
+  {
+    "id": "CI-0130",
+    "name": "Métodos de Modelado y Optimización",
+    "semester": 5,
+    "hours": 5,
+    "lab": false,
+    "groups": 1
+  },
+  {
+    "id": "CI-0131",
+    "name": "Diseño de Experimientos",
+    "semester": 7,
+    "hours": 5,
+    "lab": false,
+    "groups": 1
+  },
+  {
+    "id": "CI-0133",
+    "name": "Computación y Sociedad",
+    "semester": 8,
+    "hours": 5,
+    "lab": false,
+    "groups": 3
+  },
+  {
+    "id": "CI-0134",
+    "name": "Investigación en Ciencias de la Comp",
+    "semester": 8,
+    "hours": 5,
+    "lab": false,
+    "groups": 1
+  },
+  {
+    "id": "CI-0146",
+    "name": "Compiladores",
+    "semester": 8,
+    "hours": 5,
+    "lab": false,
+    "groups": 0
+  },
+  {
+    "id": "CI-0135",
+    "name": "Interacción Humano-Computador",
+    "semester": 7,
+    "hours": 5,
+    "lab": false,
+    "groups": 1
+  },
+  {
+    "id": "CI-0136",
+    "name": "Diseño de Software",
+    "semester": 7,
+    "hours": 5,
+    "lab": false,
+    "groups": 1
+  },
+  {
+    "id": "CI-0137",
+    "name": "Desarrollo de Aplicaciones Web",
+    "semester": 8,
+    "hours": 5,
+    "lab": false,
+    "groups": 1
+  },
+  {
+    "id": "CI-0138",
+    "name": "Integración de Infraestructura de TI",
+    "semester": 8,
+    "hours": 5,
+    "lab": false,
+    "groups": 1
+  },
+  {
+    "id": "CI-0139",
+    "name": "Administración de Proyectos",
+    "semester": 8,
+    "hours": 5,
+    "lab": false,
+    "groups": 1
+  },
+  {
+    "id": "CI-0140",
+    "name": "Calidad del Software",
+    "semester": 8,
+    "hours": 5,
+    "lab": false,
+    "groups": 1
+  },
+  {
+    "id": "CI-0141",
+    "name": "Bases de Datos Avanzadas",
+    "semester": 7,
+    "hours": 5,
+    "lab": false,
+    "groups": 2
+  },
+  {
+    "id": "CI-0142",
+    "name": "Pruebas de Software",
+    "semester": 8,
+    "hours": 5,
+    "lab": false,
+    "groups": 1
+  },
+  {
+    "id": "CI-0143",
+    "name": "Seguridad de Sistemas Computacionales",
+    "semester": 8,
+    "hours": 5,
+    "lab": false,
+    "groups": 2
+  },
+  {
+    "id": "CI-0144",
+    "name": "Diseño y Operación de Servicios de Infraestructura",
+    "semester": 8,
+    "hours": 5,
+    "lab": false,
+    "groups": 1
+  },
+  {
+    "id": "CI-0156",
+    "name": "Práctica Supervisada",
+    "semester": 8,
+    "hours": 5,
+    "lab": false,
+    "groups": 1
+  },
+  {
+    "id": "CI-0162",
+    "name": "Creación de Video Juegos",
+    "semester": 8,
+    "hours": 5,
+    "lab": false,
+    "groups": 1
+  },
+  {
+    "id": "CI-0161",
+    "name": "Desarrollo de Aplicaciones para Dispositivos Móviles",
+    "semester": 8,
+    "hours": 5,
+    "lab": false,
+    "groups": 1
+  },
+  {
+    "id": "CI-0163",
+    "name": "Análisis de Grandes Volúmenes de Datos",
+    "semester": 8,
+    "hours": 5,
+    "lab": false,
+    "groups": 1
+  },
+  {
+    "id": "CI-0155",
+    "name": "Sistemas Empotrados de Tiempo Real",
+    "semester": 8,
+    "hours": 5,
+    "lab": false,
+    "groups": 1
+  }
+]
