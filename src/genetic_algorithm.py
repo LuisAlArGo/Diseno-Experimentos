@@ -412,8 +412,8 @@ class GeneticScheduler:
         if verbose:
             print(f"Creando población inicial de {self.population_size} individuos")
         
-        # population = self.toolbox.population(n=self.population_size)
-        population = self._create_init_heur_pop(verbose=verbose)
+        population = self.toolbox.population(n=self.population_size)
+        # population = self._create_init_heur_pop(verbose=verbose)
         
         # Evaluación inicial
         fitnesses = list(map(self.toolbox.evaluate, population))
