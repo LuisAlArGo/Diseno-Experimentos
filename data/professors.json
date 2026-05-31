@@ -15,45 +15,45 @@
     "schedule_preferences": [
       {
         "day": "Lunes",
-        "start_time": 10,
-        "end_time": 16
+        "start_time": 7,
+        "end_time": 21
       },
       {
         "day": "Martes",
-        "start_time": 13,
-        "end_time": 16
+        "start_time": 7,
+        "end_time": 21
       },
       {
         "day": "Jueves",
-        "start_time": 10,
-        "end_time": 16
+        "start_time": 7,
+        "end_time": 21
       },
       {
         "day": "Viernes",
-        "start_time": 13,
-        "end_time": 15
+        "start_time": 7,
+        "end_time": 21
       }
     ],
     "available_blocks": [
       {
         "day": "Lunes",
-        "start_time": 9,
-        "end_time": 20
+        "start_time": 7,
+        "end_time": 21
       },
       {
         "day": "Martes",
-        "start_time": 13,
-        "end_time": 20
+        "start_time": 7,
+        "end_time": 21
       },
       {
         "day": "Jueves",
-        "start_time": 9,
-        "end_time": 20
+        "start_time": 7,
+        "end_time": 21
       },
       {
         "day": "Viernes",
-        "start_time": 13,
-        "end_time": 19
+        "start_time": 7,
+        "end_time": 21
       }
     ]
   },
@@ -69,26 +69,46 @@
     ],
     "schedule_preferences": [
       {
+        "day": "Lunes",
+        "start_time": 7,
+        "end_time": 21
+      },
+      {
         "day": "Martes",
-        "start_time": 13,
-        "end_time": 16
+        "start_time": 7,
+        "end_time": 21
+      },
+      {
+        "day": "Jueves",
+        "start_time": 7,
+        "end_time": 21
       },
       {
         "day": "Viernes",
-        "start_time": 13,
-        "end_time": 15
+        "start_time": 7,
+        "end_time": 21
       }
     ],
     "available_blocks": [
       {
+        "day": "Lunes",
+        "start_time": 7,
+        "end_time": 21
+      },
+      {
         "day": "Martes",
-        "start_time": 11,
-        "end_time": 16
+        "start_time": 7,
+        "end_time": 21
+      },
+      {
+        "day": "Jueves",
+        "start_time": 7,
+        "end_time": 21
       },
       {
         "day": "Viernes",
-        "start_time": 11,
-        "end_time": 15
+        "start_time": 7,
+        "end_time": 21
       }
     ]
   },
@@ -108,25 +128,45 @@
     "schedule_preferences": [
       {
         "day": "Lunes",
-        "start_time": 10,
-        "end_time": 12
+        "start_time": 7,
+        "end_time": 21
+      },
+      {
+        "day": "Martes",
+        "start_time": 7,
+        "end_time": 21
       },
       {
         "day": "Jueves",
-        "start_time": 9,
-        "end_time": 12
+        "start_time": 7,
+        "end_time": 21
+      },
+      {
+        "day": "Viernes",
+        "start_time": 7,
+        "end_time": 21
       }
     ],
     "available_blocks": [
       {
         "day": "Lunes",
         "start_time": 7,
-        "end_time": 12
+        "end_time": 21
+      },
+      {
+        "day": "Martes",
+        "start_time": 7,
+        "end_time": 21
       },
       {
         "day": "Jueves",
-        "start_time": 9,
-        "end_time": 14
+        "start_time": 7,
+        "end_time": 21
+      },
+      {
+        "day": "Viernes",
+        "start_time": 7,
+        "end_time": 21
       }
     ]
   },
@@ -146,26 +186,46 @@
     ],
     "schedule_preferences": [
       {
+        "day": "Lunes",
+        "start_time": 7,
+        "end_time": 21
+      },
+      {
         "day": "Martes",
         "start_time": 7,
-        "end_time": 12
+        "end_time": 21
+      },
+      {
+        "day": "Jueves",
+        "start_time": 7,
+        "end_time": 21
       },
       {
         "day": "Viernes",
         "start_time": 7,
-        "end_time": 12
+        "end_time": 21
       }
     ],
     "available_blocks": [
       {
+        "day": "Lunes",
+        "start_time": 7,
+        "end_time": 21
+      },
+      {
         "day": "Martes",
         "start_time": 7,
-        "end_time": 15
+        "end_time": 21
+      },
+      {
+        "day": "Jueves",
+        "start_time": 7,
+        "end_time": 21
       },
       {
         "day": "Viernes",
         "start_time": 7,
-        "end_time": 14
+        "end_time": 21
       }
     ]
   },
@@ -187,24 +247,44 @@
       {
         "day": "Lunes",
         "start_time": 7,
-        "end_time": 16
+        "end_time": 21
+      },
+      {
+        "day": "Martes",
+        "start_time": 7,
+        "end_time": 21
       },
       {
         "day": "Jueves",
         "start_time": 7,
-        "end_time": 15
+        "end_time": 21
+      },
+      {
+        "day": "Viernes",
+        "start_time": 7,
+        "end_time": 21
       }
     ],
     "available_blocks": [
       {
         "day": "Lunes",
         "start_time": 7,
-        "end_time": 19
+        "end_time": 21
+      },
+      {
+        "day": "Martes",
+        "start_time": 7,
+        "end_time": 21
       },
       {
         "day": "Jueves",
         "start_time": 7,
-        "end_time": 17
+        "end_time": 21
+      },
+      {
+        "day": "Viernes",
+        "start_time": 7,
+        "end_time": 21
       }
     ]
   },
@@ -221,25 +301,45 @@
     "schedule_preferences": [
       {
         "day": "Lunes",
-        "start_time": 10,
-        "end_time": 12
+        "start_time": 7,
+        "end_time": 21
+      },
+      {
+        "day": "Martes",
+        "start_time": 7,
+        "end_time": 21
       },
       {
         "day": "Jueves",
-        "start_time": 9,
-        "end_time": 12
+        "start_time": 7,
+        "end_time": 21
+      },
+      {
+        "day": "Viernes",
+        "start_time": 7,
+        "end_time": 21
       }
     ],
     "available_blocks": [
       {
         "day": "Lunes",
-        "start_time": 10,
-        "end_time": 15
+        "start_time": 7,
+        "end_time": 21
+      },
+      {
+        "day": "Martes",
+        "start_time": 7,
+        "end_time": 21
       },
       {
         "day": "Jueves",
-        "start_time": 9,
-        "end_time": 15
+        "start_time": 7,
+        "end_time": 21
+      },
+      {
+        "day": "Viernes",
+        "start_time": 7,
+        "end_time": 21
       }
     ]
   },
@@ -260,24 +360,44 @@
       {
         "day": "Lunes",
         "start_time": 7,
-        "end_time": 10
+        "end_time": 21
+      },
+      {
+        "day": "Martes",
+        "start_time": 7,
+        "end_time": 21
       },
       {
         "day": "Jueves",
         "start_time": 7,
-        "end_time": 9
+        "end_time": 21
+      },
+      {
+        "day": "Viernes",
+        "start_time": 7,
+        "end_time": 21
       }
     ],
     "available_blocks": [
       {
         "day": "Lunes",
         "start_time": 7,
-        "end_time": 13
+        "end_time": 21
+      },
+      {
+        "day": "Martes",
+        "start_time": 7,
+        "end_time": 21
       },
       {
         "day": "Jueves",
         "start_time": 7,
-        "end_time": 11
+        "end_time": 21
+      },
+      {
+        "day": "Viernes",
+        "start_time": 7,
+        "end_time": 21
       }
     ]
   },
@@ -300,45 +420,45 @@
     "schedule_preferences": [
       {
         "day": "Lunes",
-        "start_time": 13,
-        "end_time": 18
+        "start_time": 7,
+        "end_time": 21
       },
       {
         "day": "Jueves",
-        "start_time": 13,
-        "end_time": 18
+        "start_time": 7,
+        "end_time": 21
       },
       {
         "day": "Martes",
-        "start_time": 13,
-        "end_time": 16
+        "start_time": 7,
+        "end_time": 21
       },
       {
         "day": "Viernes",
-        "start_time": 13,
-        "end_time": 15
+        "start_time": 7,
+        "end_time": 21
       }
     ],
     "available_blocks": [
       {
         "day": "Lunes",
-        "start_time": 13,
+        "start_time": 7,
         "end_time": 21
       },
       {
         "day": "Jueves",
-        "start_time": 10,
-        "end_time": 18
+        "start_time": 7,
+        "end_time": 21
       },
       {
         "day": "Martes",
-        "start_time": 10,
-        "end_time": 16
+        "start_time": 7,
+        "end_time": 21
       },
       {
         "day": "Viernes",
-        "start_time": 10,
-        "end_time": 15
+        "start_time": 7,
+        "end_time": 21
       }
     ]
   },
@@ -359,26 +479,46 @@
     ],
     "schedule_preferences": [
       {
+        "day": "Lunes",
+        "start_time": 7,
+        "end_time": 21
+      },
+      {
         "day": "Martes",
         "start_time": 7,
-        "end_time": 12
+        "end_time": 21
+      },
+      {
+        "day": "Jueves",
+        "start_time": 7,
+        "end_time": 21
       },
       {
         "day": "Viernes",
         "start_time": 7,
-        "end_time": 12
+        "end_time": 21
       }
     ],
     "available_blocks": [
       {
+        "day": "Lunes",
+        "start_time": 7,
+        "end_time": 21
+      },
+      {
         "day": "Martes",
         "start_time": 7,
-        "end_time": 15
+        "end_time": 21
+      },
+      {
+        "day": "Jueves",
+        "start_time": 7,
+        "end_time": 21
       },
       {
         "day": "Viernes",
         "start_time": 7,
-        "end_time": 15
+        "end_time": 21
       }
     ]
   },
@@ -400,24 +540,44 @@
       {
         "day": "Lunes",
         "start_time": 7,
-        "end_time": 16
+        "end_time": 21
+      },
+      {
+        "day": "Martes",
+        "start_time": 7,
+        "end_time": 21
       },
       {
         "day": "Jueves",
         "start_time": 7,
-        "end_time": 15
+        "end_time": 21
+      },
+      {
+        "day": "Viernes",
+        "start_time": 7,
+        "end_time": 21
       }
     ],
     "available_blocks": [
       {
         "day": "Lunes",
         "start_time": 7,
-        "end_time": 18
+        "end_time": 21
+      },
+      {
+        "day": "Martes",
+        "start_time": 7,
+        "end_time": 21
       },
       {
         "day": "Jueves",
         "start_time": 7,
-        "end_time": 17
+        "end_time": 21
+      },
+      {
+        "day": "Viernes",
+        "start_time": 7,
+        "end_time": 21
       }
     ]
   },
@@ -439,44 +599,44 @@
     "schedule_preferences": [
       {
         "day": "Lunes",
-        "start_time": 16,
-        "end_time": 18
+        "start_time": 7,
+        "end_time": 21
       },
       {
         "day": "Jueves",
-        "start_time": 15,
-        "end_time": 18
-      },
-      {
-        "day": "Martes",
-        "start_time": 9,
-        "end_time": 18
-      },
-      {
-        "day": "Viernes",
-        "start_time": 9,
-        "end_time": 18
-      }
-    ],
-    "available_blocks": [
-      {
-        "day": "Lunes",
-        "start_time": 14,
-        "end_time": 18
-      },
-      {
-        "day": "Jueves",
-        "start_time": 15,
+        "start_time": 7,
         "end_time": 21
       },
       {
         "day": "Martes",
         "start_time": 7,
-        "end_time": 18
+        "end_time": 21
       },
       {
         "day": "Viernes",
-        "start_time": 9,
+        "start_time": 7,
+        "end_time": 21
+      }
+    ],
+    "available_blocks": [
+      {
+        "day": "Lunes",
+        "start_time": 7,
+        "end_time": 21
+      },
+      {
+        "day": "Jueves",
+        "start_time": 7,
+        "end_time": 21
+      },
+      {
+        "day": "Martes",
+        "start_time": 7,
+        "end_time": 21
+      },
+      {
+        "day": "Viernes",
+        "start_time": 7,
         "end_time": 21
       }
     ]
@@ -496,25 +656,45 @@
     "schedule_preferences": [
       {
         "day": "Lunes",
-        "start_time": 16,
-        "end_time": 18
+        "start_time": 7,
+        "end_time": 21
+      },
+      {
+        "day": "Martes",
+        "start_time": 7,
+        "end_time": 21
       },
       {
         "day": "Jueves",
-        "start_time": 15,
-        "end_time": 18
+        "start_time": 7,
+        "end_time": 21
+      },
+      {
+        "day": "Viernes",
+        "start_time": 7,
+        "end_time": 21
       }
     ],
     "available_blocks": [
       {
         "day": "Lunes",
-        "start_time": 16,
-        "end_time": 20
+        "start_time": 7,
+        "end_time": 21
+      },
+      {
+        "day": "Martes",
+        "start_time": 7,
+        "end_time": 21
       },
       {
         "day": "Jueves",
-        "start_time": 13,
-        "end_time": 18
+        "start_time": 7,
+        "end_time": 21
+      },
+      {
+        "day": "Viernes",
+        "start_time": 7,
+        "end_time": 21
       }
     ]
   },
@@ -531,25 +711,45 @@
     "schedule_preferences": [
       {
         "day": "Lunes",
-        "start_time": 16,
-        "end_time": 18
+        "start_time": 7,
+        "end_time": 21
+      },
+      {
+        "day": "Martes",
+        "start_time": 7,
+        "end_time": 21
       },
       {
         "day": "Jueves",
-        "start_time": 15,
-        "end_time": 18
+        "start_time": 7,
+        "end_time": 21
+      },
+      {
+        "day": "Viernes",
+        "start_time": 7,
+        "end_time": 21
       }
     ],
     "available_blocks": [
       {
         "day": "Lunes",
-        "start_time": 14,
-        "end_time": 18
+        "start_time": 7,
+        "end_time": 21
+      },
+      {
+        "day": "Martes",
+        "start_time": 7,
+        "end_time": 21
       },
       {
         "day": "Jueves",
-        "start_time": 13,
-        "end_time": 18
+        "start_time": 7,
+        "end_time": 21
+      },
+      {
+        "day": "Viernes",
+        "start_time": 7,
+        "end_time": 21
       }
     ]
   },
@@ -568,25 +768,45 @@
     "schedule_preferences": [
       {
         "day": "Lunes",
-        "start_time": 13,
-        "end_time": 18
+        "start_time": 7,
+        "end_time": 21
+      },
+      {
+        "day": "Martes",
+        "start_time": 7,
+        "end_time": 21
       },
       {
         "day": "Jueves",
-        "start_time": 13,
-        "end_time": 18
+        "start_time": 7,
+        "end_time": 21
+      },
+      {
+        "day": "Viernes",
+        "start_time": 7,
+        "end_time": 21
       }
     ],
     "available_blocks": [
       {
         "day": "Lunes",
-        "start_time": 13,
+        "start_time": 7,
+        "end_time": 21
+      },
+      {
+        "day": "Martes",
+        "start_time": 7,
         "end_time": 21
       },
       {
         "day": "Jueves",
-        "start_time": 13,
-        "end_time": 20
+        "start_time": 7,
+        "end_time": 21
+      },
+      {
+        "day": "Viernes",
+        "start_time": 7,
+        "end_time": 21
       }
     ]
   },
@@ -607,45 +827,45 @@
     "schedule_preferences": [
       {
         "day": "Martes",
-        "start_time": 10,
-        "end_time": 12
+        "start_time": 7,
+        "end_time": 21
       },
       {
         "day": "Viernes",
-        "start_time": 9,
-        "end_time": 12
+        "start_time": 7,
+        "end_time": 21
       },
       {
         "day": "Lunes",
-        "start_time": 10,
-        "end_time": 16
+        "start_time": 7,
+        "end_time": 21
       },
       {
         "day": "Jueves",
-        "start_time": 9,
-        "end_time": 15
+        "start_time": 7,
+        "end_time": 21
       }
     ],
     "available_blocks": [
       {
         "day": "Lunes",
-        "start_time": 10,
-        "end_time": 18
+        "start_time": 7,
+        "end_time": 21
       },
       {
         "day": "Martes",
         "start_time": 7,
-        "end_time": 12
+        "end_time": 21
       },
       {
         "day": "Jueves",
-        "start_time": 9,
-        "end_time": 18
+        "start_time": 7,
+        "end_time": 21
       },
       {
         "day": "Viernes",
-        "start_time": 9,
-        "end_time": 14
+        "start_time": 7,
+        "end_time": 21
       }
     ]
   },
@@ -666,45 +886,45 @@
     "schedule_preferences": [
       {
         "day": "Martes",
-        "start_time": 16,
-        "end_time": 18
+        "start_time": 7,
+        "end_time": 21
       },
       {
         "day": "Viernes",
-        "start_time": 15,
-        "end_time": 18
+        "start_time": 7,
+        "end_time": 21
       },
       {
         "day": "Lunes",
-        "start_time": 16,
-        "end_time": 18
+        "start_time": 7,
+        "end_time": 21
       },
       {
         "day": "Jueves",
-        "start_time": 15,
-        "end_time": 18
+        "start_time": 7,
+        "end_time": 21
       }
     ],
     "available_blocks": [
       {
         "day": "Lunes",
-        "start_time": 16,
+        "start_time": 7,
         "end_time": 21
       },
       {
         "day": "Martes",
-        "start_time": 16,
+        "start_time": 7,
         "end_time": 21
       },
       {
         "day": "Jueves",
-        "start_time": 13,
-        "end_time": 18
+        "start_time": 7,
+        "end_time": 21
       },
       {
         "day": "Viernes",
-        "start_time": 12,
-        "end_time": 18
+        "start_time": 7,
+        "end_time": 21
       }
     ]
   },
@@ -723,45 +943,45 @@
     "schedule_preferences": [
       {
         "day": "Lunes",
-        "start_time": 18,
+        "start_time": 7,
         "end_time": 21
       },
       {
         "day": "Jueves",
-        "start_time": 18,
-        "end_time": 20
+        "start_time": 7,
+        "end_time": 21
       },
       {
         "day": "Martes",
-        "start_time": 18,
+        "start_time": 7,
         "end_time": 21
       },
       {
         "day": "Viernes",
-        "start_time": 18,
-        "end_time": 20
+        "start_time": 7,
+        "end_time": 21
       }
     ],
     "available_blocks": [
       {
         "day": "Lunes",
-        "start_time": 16,
+        "start_time": 7,
         "end_time": 21
       },
       {
         "day": "Martes",
-        "start_time": 16,
+        "start_time": 7,
         "end_time": 21
       },
       {
         "day": "Jueves",
-        "start_time": 16,
-        "end_time": 20
+        "start_time": 7,
+        "end_time": 21
       },
       {
         "day": "Viernes",
-        "start_time": 15,
-        "end_time": 20
+        "start_time": 7,
+        "end_time": 21
       }
     ]
   },
@@ -782,34 +1002,34 @@
       {
         "day": "Martes",
         "start_time": 7,
-        "end_time": 10
+        "end_time": 21
       },
       {
         "day": "Viernes",
         "start_time": 7,
-        "end_time": 9
+        "end_time": 21
       },
       {
         "day": "Miércoles",
-        "start_time": 16,
-        "end_time": 18
+        "start_time": 7,
+        "end_time": 21
       }
     ],
     "available_blocks": [
       {
         "day": "Martes",
         "start_time": 7,
-        "end_time": 13
+        "end_time": 21
       },
       {
         "day": "Miércoles",
-        "start_time": 16,
+        "start_time": 7,
         "end_time": 21
       },
       {
         "day": "Viernes",
         "start_time": 7,
-        "end_time": 12
+        "end_time": 21
       }
     ]
   },
@@ -830,45 +1050,45 @@
     "schedule_preferences": [
       {
         "day": "Martes",
-        "start_time": 10,
+        "start_time": 7,
         "end_time": 21
       },
       {
         "day": "Viernes",
-        "start_time": 9,
-        "end_time": 20
+        "start_time": 7,
+        "end_time": 21
       },
       {
         "day": "Lunes",
         "start_time": 7,
-        "end_time": 15
+        "end_time": 21
       },
       {
         "day": "Jueves",
         "start_time": 7,
-        "end_time": 15
+        "end_time": 21
       }
     ],
     "available_blocks": [
       {
         "day": "Lunes",
         "start_time": 7,
-        "end_time": 18
+        "end_time": 21
       },
       {
         "day": "Martes",
-        "start_time": 8,
+        "start_time": 7,
         "end_time": 21
       },
       {
         "day": "Jueves",
         "start_time": 7,
-        "end_time": 18
+        "end_time": 21
       },
       {
         "day": "Viernes",
         "start_time": 7,
-        "end_time": 20
+        "end_time": 21
       }
     ]
   },
@@ -884,26 +1104,46 @@
     ],
     "schedule_preferences": [
       {
+        "day": "Lunes",
+        "start_time": 7,
+        "end_time": 21
+      },
+      {
         "day": "Martes",
         "start_time": 7,
-        "end_time": 10
+        "end_time": 21
+      },
+      {
+        "day": "Jueves",
+        "start_time": 7,
+        "end_time": 21
       },
       {
         "day": "Viernes",
         "start_time": 7,
-        "end_time": 9
+        "end_time": 21
       }
     ],
     "available_blocks": [
       {
+        "day": "Lunes",
+        "start_time": 7,
+        "end_time": 21
+      },
+      {
         "day": "Martes",
         "start_time": 7,
-        "end_time": 12
+        "end_time": 21
+      },
+      {
+        "day": "Jueves",
+        "start_time": 7,
+        "end_time": 21
       },
       {
         "day": "Viernes",
         "start_time": 7,
-        "end_time": 11
+        "end_time": 21
       }
     ]
   },
@@ -923,24 +1163,44 @@
       {
         "day": "Lunes",
         "start_time": 7,
-        "end_time": 12
+        "end_time": 21
+      },
+      {
+        "day": "Martes",
+        "start_time": 7,
+        "end_time": 21
       },
       {
         "day": "Jueves",
         "start_time": 7,
-        "end_time": 12
+        "end_time": 21
+      },
+      {
+        "day": "Viernes",
+        "start_time": 7,
+        "end_time": 21
       }
     ],
     "available_blocks": [
       {
         "day": "Lunes",
         "start_time": 7,
-        "end_time": 14
+        "end_time": 21
+      },
+      {
+        "day": "Martes",
+        "start_time": 7,
+        "end_time": 21
       },
       {
         "day": "Jueves",
         "start_time": 7,
-        "end_time": 14
+        "end_time": 21
+      },
+      {
+        "day": "Viernes",
+        "start_time": 7,
+        "end_time": 21
       }
     ]
   },
@@ -959,30 +1219,40 @@
     "schedule_preferences": [
       {
         "day": "Martes",
-        "start_time": 10,
-        "end_time": 16
+        "start_time": 7,
+        "end_time": 21
       },
       {
         "day": "Viernes",
-        "start_time": 9,
-        "end_time": 15
+        "start_time": 7,
+        "end_time": 21
       },
       {
         "day": "Miércoles",
-        "start_time": 13,
-        "end_time": 15
+        "start_time": 7,
+        "end_time": 21
       }
     ],
     "available_blocks": [
       {
+        "day": "Lunes",
+        "start_time": 7,
+        "end_time": 21
+      },
+      {
         "day": "Martes",
-        "start_time": 10,
-        "end_time": 19
+        "start_time": 7,
+        "end_time": 21
+      },
+      {
+        "day": "Jueves",
+        "start_time": 7,
+        "end_time": 21
       },
       {
         "day": "Viernes",
-        "start_time": 9,
-        "end_time": 18
+        "start_time": 7,
+        "end_time": 21
       }
     ]
   },
@@ -1002,25 +1272,45 @@
     "schedule_preferences": [
       {
         "day": "Lunes",
-        "start_time": 16,
-        "end_time": 18
+        "start_time": 7,
+        "end_time": 21
+      },
+      {
+        "day": "Martes",
+        "start_time": 7,
+        "end_time": 21
       },
       {
         "day": "Jueves",
-        "start_time": 15,
-        "end_time": 18
+        "start_time": 7,
+        "end_time": 21
+      },
+      {
+        "day": "Viernes",
+        "start_time": 7,
+        "end_time": 21
       }
     ],
     "available_blocks": [
       {
         "day": "Lunes",
-        "start_time": 16,
+        "start_time": 7,
+        "end_time": 21
+      },
+      {
+        "day": "Martes",
+        "start_time": 7,
         "end_time": 21
       },
       {
         "day": "Jueves",
-        "start_time": 15,
-        "end_time": 20
+        "start_time": 7,
+        "end_time": 21
+      },
+      {
+        "day": "Viernes",
+        "start_time": 7,
+        "end_time": 21
       }
     ]
   },
@@ -1042,35 +1332,35 @@
     "schedule_preferences": [
       {
         "day": "Martes",
-        "start_time": 10,
-        "end_time": 16
+        "start_time": 7,
+        "end_time": 21
       },
       {
         "day": "Viernes",
-        "start_time": 9,
-        "end_time": 15
+        "start_time": 7,
+        "end_time": 21
       },
       {
         "day": "Miércoles",
-        "start_time": 13,
-        "end_time": 15
+        "start_time": 7,
+        "end_time": 21
       }
     ],
     "available_blocks": [
       {
         "day": "Martes",
-        "start_time": 10,
-        "end_time": 19
+        "start_time": 7,
+        "end_time": 21
       },
       {
         "day": "Miércoles",
-        "start_time": 11,
-        "end_time": 15
+        "start_time": 7,
+        "end_time": 21
       },
       {
         "day": "Viernes",
-        "start_time": 9,
-        "end_time": 18
+        "start_time": 7,
+        "end_time": 21
       }
     ]
   },
@@ -1096,27 +1386,27 @@
       {
         "day": "Martes",
         "start_time": 7,
-        "end_time": 10
+        "end_time": 21
       },
       {
         "day": "Viernes",
         "start_time": 7,
-        "end_time": 9
+        "end_time": 21
       },
       {
         "day": "Miércoles",
         "start_time": 7,
-        "end_time": 10
+        "end_time": 21
       },
       {
         "day": "Lunes",
         "start_time": 7,
-        "end_time": 18
+        "end_time": 21
       },
       {
         "day": "Jueves",
         "start_time": 7,
-        "end_time": 18
+        "end_time": 21
       }
     ],
     "available_blocks": [
@@ -1128,12 +1418,12 @@
       {
         "day": "Martes",
         "start_time": 7,
-        "end_time": 13
+        "end_time": 21
       },
       {
         "day": "Miércoles",
         "start_time": 7,
-        "end_time": 12
+        "end_time": 21
       },
       {
         "day": "Jueves",
@@ -1143,7 +1433,7 @@
       {
         "day": "Viernes",
         "start_time": 7,
-        "end_time": 12
+        "end_time": 21
       }
     ]
   },
@@ -1161,26 +1451,46 @@
     ],
     "schedule_preferences": [
       {
+        "day": "Lunes",
+        "start_time": 7,
+        "end_time": 21
+      },
+      {
         "day": "Martes",
         "start_time": 7,
-        "end_time": 10
+        "end_time": 21
+      },
+      {
+        "day": "Jueves",
+        "start_time": 7,
+        "end_time": 21
       },
       {
         "day": "Viernes",
         "start_time": 7,
-        "end_time": 9
+        "end_time": 21
       }
     ],
     "available_blocks": [
       {
+        "day": "Lunes",
+        "start_time": 7,
+        "end_time": 21
+      },
+      {
         "day": "Martes",
         "start_time": 7,
-        "end_time": 13
+        "end_time": 21
+      },
+      {
+        "day": "Jueves",
+        "start_time": 7,
+        "end_time": 21
       },
       {
         "day": "Viernes",
         "start_time": 7,
-        "end_time": 11
+        "end_time": 21
       }
     ]
   },
@@ -1197,24 +1507,44 @@
     "schedule_preferences": [
       {
         "day": "Lunes",
-        "start_time": 16,
-        "end_time": 18
+        "start_time": 7,
+        "end_time": 21
+      },
+      {
+        "day": "Martes",
+        "start_time": 7,
+        "end_time": 21
       },
       {
         "day": "Jueves",
-        "start_time": 15,
-        "end_time": 18
+        "start_time": 7,
+        "end_time": 21
+      },
+      {
+        "day": "Viernes",
+        "start_time": 7,
+        "end_time": 21
       }
     ],
     "available_blocks": [
       {
         "day": "Lunes",
-        "start_time": 16,
+        "start_time": 7,
+        "end_time": 21
+      },
+      {
+        "day": "Martes",
+        "start_time": 7,
         "end_time": 21
       },
       {
         "day": "Jueves",
-        "start_time": 15,
+        "start_time": 7,
+        "end_time": 21
+      },
+      {
+        "day": "Viernes",
+        "start_time": 7,
         "end_time": 21
       }
     ]
@@ -1240,44 +1570,44 @@
       {
         "day": "Lunes",
         "start_time": 7,
-        "end_time": 15
+        "end_time": 21
       },
       {
         "day": "Jueves",
         "start_time": 7,
-        "end_time": 15
+        "end_time": 21
       },
       {
         "day": "Martes",
-        "start_time": 9,
-        "end_time": 15
+        "start_time": 7,
+        "end_time": 21
       },
       {
         "day": "Viernes",
-        "start_time": 9,
-        "end_time": 15
+        "start_time": 7,
+        "end_time": 21
       }
     ],
     "available_blocks": [
       {
         "day": "Lunes",
         "start_time": 7,
-        "end_time": 18
+        "end_time": 21
       },
       {
         "day": "Martes",
-        "start_time": 9,
-        "end_time": 18
+        "start_time": 7,
+        "end_time": 21
       },
       {
         "day": "Jueves",
         "start_time": 7,
-        "end_time": 18
+        "end_time": 21
       },
       {
         "day": "Viernes",
         "start_time": 7,
-        "end_time": 15
+        "end_time": 21
       }
     ]
   },
@@ -1295,26 +1625,46 @@
     ],
     "schedule_preferences": [
       {
+        "day": "Lunes",
+        "start_time": 7,
+        "end_time": 21
+      },
+      {
         "day": "Martes",
-        "start_time": 10,
-        "end_time": 12
+        "start_time": 7,
+        "end_time": 21
+      },
+      {
+        "day": "Jueves",
+        "start_time": 7,
+        "end_time": 21
       },
       {
         "day": "Viernes",
-        "start_time": 9,
-        "end_time": 12
+        "start_time": 7,
+        "end_time": 21
       }
     ],
     "available_blocks": [
       {
+        "day": "Lunes",
+        "start_time": 7,
+        "end_time": 21
+      },
+      {
         "day": "Martes",
-        "start_time": 10,
-        "end_time": 14
+        "start_time": 7,
+        "end_time": 21
+      },
+      {
+        "day": "Jueves",
+        "start_time": 7,
+        "end_time": 21
       },
       {
         "day": "Viernes",
-        "start_time": 9,
-        "end_time": 14
+        "start_time": 7,
+        "end_time": 21
       }
     ]
   },
@@ -1333,25 +1683,45 @@
     ],
     "schedule_preferences": [
       {
-        "day": "Viernes",
-        "start_time": 15,
+        "day": "Lunes",
+        "start_time": 7,
         "end_time": 21
       },
       {
         "day": "Martes",
-        "start_time": 16,
-        "end_time": 18
+        "start_time": 7,
+        "end_time": 21
+      },
+      {
+        "day": "Jueves",
+        "start_time": 7,
+        "end_time": 21
+      },
+      {
+        "day": "Viernes",
+        "start_time": 7,
+        "end_time": 21
       }
     ],
     "available_blocks": [
       {
+        "day": "Lunes",
+        "start_time": 7,
+        "end_time": 21
+      },
+      {
         "day": "Martes",
-        "start_time": 16,
-        "end_time": 20
+        "start_time": 7,
+        "end_time": 21
+      },
+      {
+        "day": "Jueves",
+        "start_time": 7,
+        "end_time": 21
       },
       {
         "day": "Viernes",
-        "start_time": 13,
+        "start_time": 7,
         "end_time": 21
       }
     ]
@@ -1373,35 +1743,35 @@
     "schedule_preferences": [
       {
         "day": "Miércoles",
-        "start_time": 9,
-        "end_time": 16
+        "start_time": 7,
+        "end_time": 21
       },
       {
         "day": "Martes",
-        "start_time": 10,
-        "end_time": 12
+        "start_time": 7,
+        "end_time": 21
       },
       {
         "day": "Viernes",
-        "start_time": 9,
-        "end_time": 12
+        "start_time": 7,
+        "end_time": 21
       }
     ],
     "available_blocks": [
       {
         "day": "Martes",
-        "start_time": 10,
-        "end_time": 14
+        "start_time": 7,
+        "end_time": 21
       },
       {
         "day": "Miércoles",
-        "start_time": 9,
-        "end_time": 19
+        "start_time": 7,
+        "end_time": 21
       },
       {
         "day": "Viernes",
         "start_time": 7,
-        "end_time": 12
+        "end_time": 21
       }
     ]
   },
@@ -1422,25 +1792,45 @@
     ],
     "schedule_preferences": [
       {
+        "day": "Lunes",
+        "start_time": 7,
+        "end_time": 21
+      },
+      {
         "day": "Martes",
-        "start_time": 10,
-        "end_time": 18
+        "start_time": 7,
+        "end_time": 21
+      },
+      {
+        "day": "Jueves",
+        "start_time": 7,
+        "end_time": 21
       },
       {
         "day": "Viernes",
-        "start_time": 9,
-        "end_time": 18
+        "start_time": 7,
+        "end_time": 21
       }
     ],
     "available_blocks": [
       {
+        "day": "Lunes",
+        "start_time": 7,
+        "end_time": 21
+      },
+      {
         "day": "Martes",
-        "start_time": 8,
-        "end_time": 18
+        "start_time": 7,
+        "end_time": 21
+      },
+      {
+        "day": "Jueves",
+        "start_time": 7,
+        "end_time": 21
       },
       {
         "day": "Viernes",
-        "start_time": 9,
+        "start_time": 7,
         "end_time": 21
       }
     ]
@@ -1461,25 +1851,45 @@
     ],
     "schedule_preferences": [
       {
+        "day": "Lunes",
+        "start_time": 7,
+        "end_time": 21
+      },
+      {
         "day": "Martes",
-        "start_time": 10,
-        "end_time": 19
+        "start_time": 7,
+        "end_time": 21
+      },
+      {
+        "day": "Jueves",
+        "start_time": 7,
+        "end_time": 21
       },
       {
         "day": "Viernes",
-        "start_time": 9,
-        "end_time": 18
+        "start_time": 7,
+        "end_time": 21
       }
     ],
     "available_blocks": [
       {
+        "day": "Lunes",
+        "start_time": 7,
+        "end_time": 21
+      },
+      {
         "day": "Martes",
         "start_time": 7,
-        "end_time": 19
+        "end_time": 21
+      },
+      {
+        "day": "Jueves",
+        "start_time": 7,
+        "end_time": 21
       },
       {
         "day": "Viernes",
-        "start_time": 9,
+        "start_time": 7,
         "end_time": 21
       }
     ]
@@ -1504,45 +1914,45 @@
     "schedule_preferences": [
       {
         "day": "Martes",
-        "start_time": 13,
-        "end_time": 16
+        "start_time": 7,
+        "end_time": 21
       },
       {
         "day": "Viernes",
-        "start_time": 13,
-        "end_time": 15
+        "start_time": 7,
+        "end_time": 21
       },
       {
         "day": "Lunes",
-        "start_time": 10,
-        "end_time": 16
+        "start_time": 7,
+        "end_time": 21
       },
       {
         "day": "Jueves",
-        "start_time": 9,
-        "end_time": 15
+        "start_time": 7,
+        "end_time": 21
       }
     ],
     "available_blocks": [
       {
         "day": "Lunes",
-        "start_time": 8,
-        "end_time": 16
+        "start_time": 7,
+        "end_time": 21
       },
       {
         "day": "Martes",
-        "start_time": 13,
-        "end_time": 19
+        "start_time": 7,
+        "end_time": 21
       },
       {
         "day": "Jueves",
         "start_time": 7,
-        "end_time": 15
+        "end_time": 21
       },
       {
         "day": "Viernes",
-        "start_time": 10,
-        "end_time": 15
+        "start_time": 7,
+        "end_time": 21
       }
     ]
   },
@@ -1562,24 +1972,44 @@
       {
         "day": "Lunes",
         "start_time": 7,
-        "end_time": 12
+        "end_time": 21
+      },
+      {
+        "day": "Martes",
+        "start_time": 7,
+        "end_time": 21
       },
       {
         "day": "Jueves",
         "start_time": 7,
-        "end_time": 12
+        "end_time": 21
+      },
+      {
+        "day": "Viernes",
+        "start_time": 7,
+        "end_time": 21
       }
     ],
     "available_blocks": [
       {
         "day": "Lunes",
         "start_time": 7,
-        "end_time": 15
+        "end_time": 21
+      },
+      {
+        "day": "Martes",
+        "start_time": 7,
+        "end_time": 21
       },
       {
         "day": "Jueves",
         "start_time": 7,
-        "end_time": 14
+        "end_time": 21
+      },
+      {
+        "day": "Viernes",
+        "start_time": 7,
+        "end_time": 21
       }
     ]
   },
@@ -1600,35 +2030,35 @@
     "schedule_preferences": [
       {
         "day": "Lunes",
-        "start_time": 10,
-        "end_time": 12
+        "start_time": 7,
+        "end_time": 21
       },
       {
         "day": "Jueves",
-        "start_time": 9,
-        "end_time": 12
+        "start_time": 7,
+        "end_time": 21
       },
       {
         "day": "Miércoles",
-        "start_time": 10,
-        "end_time": 13
+        "start_time": 7,
+        "end_time": 21
       }
     ],
     "available_blocks": [
       {
         "day": "Lunes",
-        "start_time": 8,
-        "end_time": 12
+        "start_time": 7,
+        "end_time": 21
       },
       {
         "day": "Miércoles",
         "start_time": 7,
-        "end_time": 13
+        "end_time": 21
       },
       {
         "day": "Jueves",
-        "start_time": 9,
-        "end_time": 14
+        "start_time": 7,
+        "end_time": 21
       }
     ]
   },
@@ -1648,35 +2078,35 @@
     "schedule_preferences": [
       {
         "day": "Lunes",
-        "start_time": 18,
+        "start_time": 7,
         "end_time": 21
       },
       {
         "day": "Jueves",
-        "start_time": 18,
-        "end_time": 20
+        "start_time": 7,
+        "end_time": 21
       },
       {
         "day": "Miércoles",
-        "start_time": 17,
-        "end_time": 20
+        "start_time": 7,
+        "end_time": 21
       }
     ],
     "available_blocks": [
       {
         "day": "Lunes",
-        "start_time": 15,
+        "start_time": 7,
         "end_time": 21
       },
       {
         "day": "Miércoles",
-        "start_time": 15,
-        "end_time": 20
+        "start_time": 7,
+        "end_time": 21
       },
       {
         "day": "Jueves",
-        "start_time": 15,
-        "end_time": 20
+        "start_time": 7,
+        "end_time": 21
       }
     ]
   },
@@ -1697,24 +2127,44 @@
       {
         "day": "Lunes",
         "start_time": 7,
-        "end_time": 12
+        "end_time": 21
+      },
+      {
+        "day": "Martes",
+        "start_time": 7,
+        "end_time": 21
       },
       {
         "day": "Jueves",
         "start_time": 7,
-        "end_time": 12
+        "end_time": 21
+      },
+      {
+        "day": "Viernes",
+        "start_time": 7,
+        "end_time": 21
       }
     ],
     "available_blocks": [
       {
         "day": "Lunes",
         "start_time": 7,
-        "end_time": 14
+        "end_time": 21
+      },
+      {
+        "day": "Martes",
+        "start_time": 7,
+        "end_time": 21
       },
       {
         "day": "Jueves",
         "start_time": 7,
-        "end_time": 15
+        "end_time": 21
+      },
+      {
+        "day": "Viernes",
+        "start_time": 7,
+        "end_time": 21
       }
     ]
   },
@@ -1735,35 +2185,35 @@
     "schedule_preferences": [
       {
         "day": "Lunes",
-        "start_time": 16,
+        "start_time": 7,
         "end_time": 21
       },
       {
         "day": "Jueves",
-        "start_time": 15,
-        "end_time": 20
+        "start_time": 7,
+        "end_time": 21
       },
       {
         "day": "Miércoles",
-        "start_time": 10,
-        "end_time": 13
+        "start_time": 7,
+        "end_time": 21
       }
     ],
     "available_blocks": [
       {
         "day": "Lunes",
-        "start_time": 14,
+        "start_time": 7,
         "end_time": 21
       },
       {
         "day": "Miércoles",
-        "start_time": 10,
-        "end_time": 16
+        "start_time": 7,
+        "end_time": 21
       },
       {
         "day": "Jueves",
-        "start_time": 12,
-        "end_time": 20
+        "start_time": 7,
+        "end_time": 21
       }
     ]
   },
@@ -1784,34 +2234,34 @@
       {
         "day": "Lunes",
         "start_time": 7,
-        "end_time": 10
+        "end_time": 21
       },
       {
         "day": "Jueves",
         "start_time": 7,
-        "end_time": 9
+        "end_time": 21
       },
       {
         "day": "Miércoles",
-        "start_time": 17,
-        "end_time": 20
+        "start_time": 7,
+        "end_time": 21
       }
     ],
     "available_blocks": [
       {
         "day": "Lunes",
         "start_time": 7,
-        "end_time": 12
+        "end_time": 21
       },
       {
         "day": "Miércoles",
-        "start_time": 14,
-        "end_time": 20
+        "start_time": 7,
+        "end_time": 21
       },
       {
         "day": "Jueves",
         "start_time": 7,
-        "end_time": 12
+        "end_time": 21
       }
     ]
   },
@@ -1832,34 +2282,34 @@
     "schedule_preferences": [
       {
         "day": "Martes",
-        "start_time": 18,
+        "start_time": 7,
         "end_time": 21
       },
       {
         "day": "Viernes",
-        "start_time": 18,
+        "start_time": 7,
         "end_time": 21
       },
       {
         "day": "Miércoles",
         "start_time": 7,
-        "end_time": 10
+        "end_time": 21
       }
     ],
     "available_blocks": [
       {
         "day": "Martes",
-        "start_time": 15,
+        "start_time": 7,
         "end_time": 21
       },
       {
         "day": "Miércoles",
         "start_time": 7,
-        "end_time": 12
+        "end_time": 21
       },
       {
         "day": "Viernes",
-        "start_time": 16,
+        "start_time": 7,
         "end_time": 21
       }
     ]
@@ -1879,25 +2329,45 @@
     "schedule_preferences": [
       {
         "day": "Lunes",
-        "start_time": 13,
-        "end_time": 16
+        "start_time": 7,
+        "end_time": 21
+      },
+      {
+        "day": "Martes",
+        "start_time": 7,
+        "end_time": 21
       },
       {
         "day": "Jueves",
-        "start_time": 13,
-        "end_time": 15
+        "start_time": 7,
+        "end_time": 21
+      },
+      {
+        "day": "Viernes",
+        "start_time": 7,
+        "end_time": 21
       }
     ],
     "available_blocks": [
       {
         "day": "Lunes",
-        "start_time": 10,
-        "end_time": 16
+        "start_time": 7,
+        "end_time": 21
+      },
+      {
+        "day": "Martes",
+        "start_time": 7,
+        "end_time": 21
       },
       {
         "day": "Jueves",
-        "start_time": 13,
-        "end_time": 18
+        "start_time": 7,
+        "end_time": 21
+      },
+      {
+        "day": "Viernes",
+        "start_time": 7,
+        "end_time": 21
       }
     ]
   },
@@ -1916,35 +2386,45 @@
     "schedule_preferences": [
       {
         "day": "Lunes",
-        "start_time": 18,
+        "start_time": 7,
         "end_time": 21
       },
       {
         "day": "Jueves",
-        "start_time": 18,
-        "end_time": 20
+        "start_time": 7,
+        "end_time": 21
       },
       {
         "day": "Martes",
-        "start_time": 18,
+        "start_time": 7,
         "end_time": 21
       },
       {
         "day": "Viernes",
-        "start_time": 18,
-        "end_time": 20
+        "start_time": 7,
+        "end_time": 21
       }
     ],
     "available_blocks": [
       {
         "day": "Lunes",
-        "start_time": 15,
+        "start_time": 7,
+        "end_time": 21
+      },
+      {
+        "day": "Martes",
+        "start_time": 7,
         "end_time": 21
       },
       {
         "day": "Jueves",
-        "start_time": 16,
-        "end_time": 20
+        "start_time": 7,
+        "end_time": 21
+      },
+      {
+        "day": "Viernes",
+        "start_time": 7,
+        "end_time": 21
       }
     ]
   },
@@ -1962,26 +2442,46 @@
     ],
     "schedule_preferences": [
       {
+        "day": "Lunes",
+        "start_time": 7,
+        "end_time": 21
+      },
+      {
         "day": "Martes",
-        "start_time": 10,
-        "end_time": 12
+        "start_time": 7,
+        "end_time": 21
+      },
+      {
+        "day": "Jueves",
+        "start_time": 7,
+        "end_time": 21
       },
       {
         "day": "Viernes",
-        "start_time": 9,
-        "end_time": 12
+        "start_time": 7,
+        "end_time": 21
       }
     ],
     "available_blocks": [
       {
+        "day": "Lunes",
+        "start_time": 7,
+        "end_time": 21
+      },
+      {
         "day": "Martes",
-        "start_time": 8,
-        "end_time": 12
+        "start_time": 7,
+        "end_time": 21
+      },
+      {
+        "day": "Jueves",
+        "start_time": 7,
+        "end_time": 21
       },
       {
         "day": "Viernes",
-        "start_time": 9,
-        "end_time": 15
+        "start_time": 7,
+        "end_time": 21
       }
     ]
   },
@@ -1997,26 +2497,46 @@
     ],
     "schedule_preferences": [
       {
+        "day": "Lunes",
+        "start_time": 7,
+        "end_time": 21
+      },
+      {
         "day": "Martes",
-        "start_time": 16,
-        "end_time": 18
+        "start_time": 7,
+        "end_time": 21
+      },
+      {
+        "day": "Jueves",
+        "start_time": 7,
+        "end_time": 21
       },
       {
         "day": "Viernes",
-        "start_time": 15,
-        "end_time": 18
+        "start_time": 7,
+        "end_time": 21
       }
     ],
     "available_blocks": [
       {
+        "day": "Lunes",
+        "start_time": 7,
+        "end_time": 21
+      },
+      {
         "day": "Martes",
-        "start_time": 13,
-        "end_time": 18
+        "start_time": 7,
+        "end_time": 21
+      },
+      {
+        "day": "Jueves",
+        "start_time": 7,
+        "end_time": 21
       },
       {
         "day": "Viernes",
-        "start_time": 13,
-        "end_time": 18
+        "start_time": 7,
+        "end_time": 21
       }
     ]
   },
@@ -2042,39 +2562,39 @@
       {
         "day": "Martes",
         "start_time": 7,
-        "end_time": 17
+        "end_time": 21
       },
       {
         "day": "Viernes",
         "start_time": 7,
-        "end_time": 17
+        "end_time": 21
       },
       {
         "day": "Lunes",
-        "start_time": 10,
-        "end_time": 12
+        "start_time": 7,
+        "end_time": 21
       },
       {
         "day": "Jueves",
-        "start_time": 9,
-        "end_time": 12
+        "start_time": 7,
+        "end_time": 21
       }
     ],
     "available_blocks": [
       {
         "day": "Lunes",
         "start_time": 7,
-        "end_time": 12
+        "end_time": 21
       },
       {
         "day": "Martes",
         "start_time": 7,
-        "end_time": 19
+        "end_time": 21
       },
       {
         "day": "Jueves",
         "start_time": 7,
-        "end_time": 12
+        "end_time": 21
       }
     ]
   },
@@ -2093,26 +2613,46 @@
     ],
     "schedule_preferences": [
       {
+        "day": "Lunes",
+        "start_time": 7,
+        "end_time": 21
+      },
+      {
         "day": "Martes",
-        "start_time": 18,
+        "start_time": 7,
+        "end_time": 21
+      },
+      {
+        "day": "Jueves",
+        "start_time": 7,
         "end_time": 21
       },
       {
         "day": "Viernes",
-        "start_time": 18,
-        "end_time": 20
+        "start_time": 7,
+        "end_time": 21
       }
     ],
     "available_blocks": [
       {
+        "day": "Lunes",
+        "start_time": 7,
+        "end_time": 21
+      },
+      {
         "day": "Martes",
-        "start_time": 15,
+        "start_time": 7,
+        "end_time": 21
+      },
+      {
+        "day": "Jueves",
+        "start_time": 7,
         "end_time": 21
       },
       {
         "day": "Viernes",
-        "start_time": 16,
-        "end_time": 20
+        "start_time": 7,
+        "end_time": 21
       }
     ]
   },
@@ -2130,25 +2670,45 @@
     ],
     "schedule_preferences": [
       {
+        "day": "Lunes",
+        "start_time": 7,
+        "end_time": 21
+      },
+      {
         "day": "Martes",
-        "start_time": 16,
-        "end_time": 18
+        "start_time": 7,
+        "end_time": 21
+      },
+      {
+        "day": "Jueves",
+        "start_time": 7,
+        "end_time": 21
       },
       {
         "day": "Viernes",
-        "start_time": 15,
-        "end_time": 18
+        "start_time": 7,
+        "end_time": 21
       }
     ],
     "available_blocks": [
       {
+        "day": "Lunes",
+        "start_time": 7,
+        "end_time": 21
+      },
+      {
         "day": "Martes",
-        "start_time": 14,
-        "end_time": 18
+        "start_time": 7,
+        "end_time": 21
+      },
+      {
+        "day": "Jueves",
+        "start_time": 7,
+        "end_time": 21
       },
       {
         "day": "Viernes",
-        "start_time": 15,
+        "start_time": 7,
         "end_time": 21
       }
     ]
@@ -2167,26 +2727,46 @@
     ],
     "schedule_preferences": [
       {
+        "day": "Lunes",
+        "start_time": 7,
+        "end_time": 21
+      },
+      {
         "day": "Martes",
-        "start_time": 13,
-        "end_time": 16
+        "start_time": 7,
+        "end_time": 21
+      },
+      {
+        "day": "Jueves",
+        "start_time": 7,
+        "end_time": 21
       },
       {
         "day": "Viernes",
-        "start_time": 13,
-        "end_time": 15
+        "start_time": 7,
+        "end_time": 21
       }
     ],
     "available_blocks": [
       {
+        "day": "Lunes",
+        "start_time": 7,
+        "end_time": 21
+      },
+      {
         "day": "Martes",
-        "start_time": 11,
-        "end_time": 16
+        "start_time": 7,
+        "end_time": 21
+      },
+      {
+        "day": "Jueves",
+        "start_time": 7,
+        "end_time": 21
       },
       {
         "day": "Viernes",
-        "start_time": 11,
-        "end_time": 15
+        "start_time": 7,
+        "end_time": 21
       }
     ]
   },
@@ -2205,25 +2785,45 @@
     "schedule_preferences": [
       {
         "day": "Lunes",
-        "start_time": 16,
-        "end_time": 18
+        "start_time": 7,
+        "end_time": 21
+      },
+      {
+        "day": "Martes",
+        "start_time": 7,
+        "end_time": 21
       },
       {
         "day": "Jueves",
-        "start_time": 15,
-        "end_time": 18
+        "start_time": 7,
+        "end_time": 21
+      },
+      {
+        "day": "Viernes",
+        "start_time": 7,
+        "end_time": 21
       }
     ],
     "available_blocks": [
       {
         "day": "Lunes",
-        "start_time": 13,
-        "end_time": 18
+        "start_time": 7,
+        "end_time": 21
+      },
+      {
+        "day": "Martes",
+        "start_time": 7,
+        "end_time": 21
       },
       {
         "day": "Jueves",
-        "start_time": 15,
-        "end_time": 20
+        "start_time": 7,
+        "end_time": 21
+      },
+      {
+        "day": "Viernes",
+        "start_time": 7,
+        "end_time": 21
       }
     ]
   },
@@ -2240,25 +2840,45 @@
     "schedule_preferences": [
       {
         "day": "Lunes",
-        "start_time": 10,
-        "end_time": 12
+        "start_time": 7,
+        "end_time": 21
+      },
+      {
+        "day": "Martes",
+        "start_time": 7,
+        "end_time": 21
       },
       {
         "day": "Jueves",
-        "start_time": 9,
-        "end_time": 12
+        "start_time": 7,
+        "end_time": 21
+      },
+      {
+        "day": "Viernes",
+        "start_time": 7,
+        "end_time": 21
       }
     ],
     "available_blocks": [
       {
         "day": "Lunes",
-        "start_time": 8,
-        "end_time": 12
+        "start_time": 7,
+        "end_time": 21
+      },
+      {
+        "day": "Martes",
+        "start_time": 7,
+        "end_time": 21
       },
       {
         "day": "Jueves",
-        "start_time": 9,
-        "end_time": 15
+        "start_time": 7,
+        "end_time": 21
+      },
+      {
+        "day": "Viernes",
+        "start_time": 7,
+        "end_time": 21
       }
     ]
   },
@@ -2277,25 +2897,45 @@
     "schedule_preferences": [
       {
         "day": "Lunes",
-        "start_time": 13,
-        "end_time": 15
+        "start_time": 7,
+        "end_time": 21
+      },
+      {
+        "day": "Martes",
+        "start_time": 7,
+        "end_time": 21
       },
       {
         "day": "Jueves",
-        "start_time": 13,
-        "end_time": 15
+        "start_time": 7,
+        "end_time": 21
+      },
+      {
+        "day": "Viernes",
+        "start_time": 7,
+        "end_time": 21
       }
     ],
     "available_blocks": [
       {
         "day": "Lunes",
-        "start_time": 11,
-        "end_time": 15
+        "start_time": 7,
+        "end_time": 21
+      },
+      {
+        "day": "Martes",
+        "start_time": 7,
+        "end_time": 21
       },
       {
         "day": "Jueves",
-        "start_time": 13,
-        "end_time": 18
+        "start_time": 7,
+        "end_time": 21
+      },
+      {
+        "day": "Viernes",
+        "start_time": 7,
+        "end_time": 21
       }
     ]
   },
@@ -2314,25 +2954,45 @@
     "schedule_preferences": [
       {
         "day": "Lunes",
-        "start_time": 17,
-        "end_time": 19
+        "start_time": 7,
+        "end_time": 21
+      },
+      {
+        "day": "Martes",
+        "start_time": 7,
+        "end_time": 21
       },
       {
         "day": "Jueves",
-        "start_time": 17,
-        "end_time": 19
+        "start_time": 7,
+        "end_time": 21
+      },
+      {
+        "day": "Viernes",
+        "start_time": 7,
+        "end_time": 21
       }
     ],
     "available_blocks": [
       {
         "day": "Lunes",
-        "start_time": 14,
-        "end_time": 19
+        "start_time": 7,
+        "end_time": 21
+      },
+      {
+        "day": "Martes",
+        "start_time": 7,
+        "end_time": 21
       },
       {
         "day": "Jueves",
-        "start_time": 14,
-        "end_time": 19
+        "start_time": 7,
+        "end_time": 21
+      },
+      {
+        "day": "Viernes",
+        "start_time": 7,
+        "end_time": 21
       }
     ]
   },
@@ -2351,25 +3011,45 @@
     "schedule_preferences": [
       {
         "day": "Lunes",
-        "start_time": 13,
-        "end_time": 15
+        "start_time": 7,
+        "end_time": 21
+      },
+      {
+        "day": "Martes",
+        "start_time": 7,
+        "end_time": 21
       },
       {
         "day": "Jueves",
-        "start_time": 13,
-        "end_time": 15
+        "start_time": 7,
+        "end_time": 21
+      },
+      {
+        "day": "Viernes",
+        "start_time": 7,
+        "end_time": 21
       }
     ],
     "available_blocks": [
       {
         "day": "Lunes",
-        "start_time": 11,
-        "end_time": 15
+        "start_time": 7,
+        "end_time": 21
+      },
+      {
+        "day": "Martes",
+        "start_time": 7,
+        "end_time": 21
       },
       {
         "day": "Jueves",
-        "start_time": 13,
-        "end_time": 17
+        "start_time": 7,
+        "end_time": 21
+      },
+      {
+        "day": "Viernes",
+        "start_time": 7,
+        "end_time": 21
       }
     ]
   },
@@ -2387,26 +3067,46 @@
     ],
     "schedule_preferences": [
       {
+        "day": "Lunes",
+        "start_time": 7,
+        "end_time": 21
+      },
+      {
         "day": "Martes",
         "start_time": 7,
-        "end_time": 9
+        "end_time": 21
+      },
+      {
+        "day": "Jueves",
+        "start_time": 7,
+        "end_time": 21
       },
       {
         "day": "Viernes",
         "start_time": 7,
-        "end_time": 9
+        "end_time": 21
       }
     ],
     "available_blocks": [
       {
+        "day": "Lunes",
+        "start_time": 7,
+        "end_time": 21
+      },
+      {
         "day": "Martes",
         "start_time": 7,
-        "end_time": 11
+        "end_time": 21
+      },
+      {
+        "day": "Jueves",
+        "start_time": 7,
+        "end_time": 21
       },
       {
         "day": "Viernes",
         "start_time": 7,
-        "end_time": 11
+        "end_time": 21
       }
     ]
   },
@@ -2424,25 +3124,45 @@
     ],
     "schedule_preferences": [
       {
+        "day": "Lunes",
+        "start_time": 7,
+        "end_time": 21
+      },
+      {
         "day": "Martes",
-        "start_time": 17,
-        "end_time": 19
+        "start_time": 7,
+        "end_time": 21
+      },
+      {
+        "day": "Jueves",
+        "start_time": 7,
+        "end_time": 21
       },
       {
         "day": "Viernes",
-        "start_time": 17,
-        "end_time": 19
+        "start_time": 7,
+        "end_time": 21
       }
     ],
     "available_blocks": [
       {
+        "day": "Lunes",
+        "start_time": 7,
+        "end_time": 21
+      },
+      {
         "day": "Martes",
-        "start_time": 14,
-        "end_time": 19
+        "start_time": 7,
+        "end_time": 21
+      },
+      {
+        "day": "Jueves",
+        "start_time": 7,
+        "end_time": 21
       },
       {
         "day": "Viernes",
-        "start_time": 17,
+        "start_time": 7,
         "end_time": 21
       }
     ]
@@ -2462,25 +3182,45 @@
     "schedule_preferences": [
       {
         "day": "Lunes",
-        "start_time": 17,
-        "end_time": 19
+        "start_time": 7,
+        "end_time": 21
+      },
+      {
+        "day": "Martes",
+        "start_time": 7,
+        "end_time": 21
       },
       {
         "day": "Jueves",
-        "start_time": 17,
-        "end_time": 19
+        "start_time": 7,
+        "end_time": 21
+      },
+      {
+        "day": "Viernes",
+        "start_time": 7,
+        "end_time": 21
       }
     ],
     "available_blocks": [
       {
         "day": "Lunes",
-        "start_time": 14,
-        "end_time": 19
+        "start_time": 7,
+        "end_time": 21
+      },
+      {
+        "day": "Martes",
+        "start_time": 7,
+        "end_time": 21
       },
       {
         "day": "Jueves",
-        "start_time": 14,
-        "end_time": 19
+        "start_time": 7,
+        "end_time": 21
+      },
+      {
+        "day": "Viernes",
+        "start_time": 7,
+        "end_time": 21
       }
     ]
   },
@@ -2499,26 +3239,46 @@
     ],
     "schedule_preferences": [
       {
+        "day": "Lunes",
+        "start_time": 7,
+        "end_time": 21
+      },
+      {
         "day": "Martes",
         "start_time": 7,
-        "end_time": 9
+        "end_time": 21
+      },
+      {
+        "day": "Jueves",
+        "start_time": 7,
+        "end_time": 21
       },
       {
         "day": "Viernes",
         "start_time": 7,
-        "end_time": 9
+        "end_time": 21
       }
     ],
     "available_blocks": [
       {
+        "day": "Lunes",
+        "start_time": 7,
+        "end_time": 21
+      },
+      {
         "day": "Martes",
         "start_time": 7,
-        "end_time": 11
+        "end_time": 21
+      },
+      {
+        "day": "Jueves",
+        "start_time": 7,
+        "end_time": 21
       },
       {
         "day": "Viernes",
         "start_time": 7,
-        "end_time": 11
+        "end_time": 21
       }
     ]
   },
@@ -2535,25 +3295,45 @@
     "schedule_preferences": [
       {
         "day": "Lunes",
-        "start_time": 9,
-        "end_time": 11
+        "start_time": 7,
+        "end_time": 21
+      },
+      {
+        "day": "Martes",
+        "start_time": 7,
+        "end_time": 21
       },
       {
         "day": "Jueves",
-        "start_time": 9,
-        "end_time": 11
+        "start_time": 7,
+        "end_time": 21
+      },
+      {
+        "day": "Viernes",
+        "start_time": 7,
+        "end_time": 21
       }
     ],
     "available_blocks": [
       {
         "day": "Lunes",
-        "start_time": 9,
-        "end_time": 14
+        "start_time": 7,
+        "end_time": 21
+      },
+      {
+        "day": "Martes",
+        "start_time": 7,
+        "end_time": 21
       },
       {
         "day": "Jueves",
-        "start_time": 9,
-        "end_time": 13
+        "start_time": 7,
+        "end_time": 21
+      },
+      {
+        "day": "Viernes",
+        "start_time": 7,
+        "end_time": 21
       }
     ]
   }

@@ -85,7 +85,8 @@ class Schedule:
                         'name': group.course.name,
                         'semester': group.course.semester,
                         'hours': group.course.hours,
-                        'lab': group.course.lab
+                        'lab': group.course.lab,
+                        'specialization': group.course.specialization
                     },
                     'group_number': group.group_number,
                     'professor': {

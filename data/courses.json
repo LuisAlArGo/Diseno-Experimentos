@@ -5,7 +5,8 @@
     "semester": 0,
     "hours": 4,
     "lab": false,
-    "groups": 2
+    "groups": 2,
+    "specialization": "optative"
   },
   {
     "id": "CI-0110",
@@ -13,7 +14,8 @@
     "semester": 1,
     "hours": 5,
     "lab": false,
-    "groups": 9
+    "groups": 9,
+    "specialization": "general"
   },
   {
     "id": "CI-0111",
@@ -21,7 +23,8 @@
     "semester": 2,
     "hours": 5,
     "lab": false,
-    "groups": 3
+    "groups": 3,
+    "specialization": "general"
   },
   {
     "id": "CI-0112",
@@ -29,7 +32,8 @@
     "semester": 2,
     "hours": 5,
     "lab": false,
-    "groups": 5
+    "groups": 5,
+    "specialization": "general"
   },
   {
     "id": "CI-0113",
@@ -37,7 +41,8 @@
     "semester": 3,
     "hours": 5,
     "lab": false,
-    "groups": 6
+    "groups": 6,
+    "specialization": "general"
   },
   {
     "id": "CI-0114",
@@ -45,7 +50,8 @@
     "semester": 3,
     "hours": 5,
     "lab": false,
-    "groups": 5
+    "groups": 5,
+    "specialization": "general"
   },
   {
     "id": "CI-0115",
@@ -53,7 +59,8 @@
     "semester": 4,
     "hours": 5,
     "lab": false,
-    "groups": 3
+    "groups": 3,
+    "specialization": "general"
   },
   {
     "id": "CI-0116",
@@ -61,7 +68,8 @@
     "semester": 4,
     "hours": 5,
     "lab": false,
-    "groups": 4
+    "groups": 4,
+    "specialization": "general"
   },
   {
     "id": "CI-0117",
@@ -69,7 +77,8 @@
     "semester": 4,
     "hours": 5,
     "lab": true,
-    "groups": 4
+    "groups": 4,
+    "specialization": "general"
   },
   {
     "id": "CI-0118",
@@ -77,7 +86,8 @@
     "semester": 4,
     "hours": 5,
     "lab": false,
-    "groups": 2
+    "groups": 2,
+    "specialization": "general"
   },
   {
     "id": "CI-0119",
@@ -85,7 +95,8 @@
     "semester": 4,
     "hours": 2,
     "lab": false,
-    "groups": 2
+    "groups": 2,
+    "specialization": "general"
   },
   {
     "id": "CI-0120",
@@ -93,7 +104,8 @@
     "semester": 7,
     "hours": 5,
     "lab": false,
-    "groups": 1
+    "groups": 1,
+    "specialization": "computer science"
   },
   {
     "id": "CI-0121",
@@ -101,7 +113,8 @@
     "semester": 5,
     "hours": 3,
     "lab": false,
-    "groups": 3
+    "groups": 3,
+    "specialization": "general"
   },
   {
     "id": "CI-0122",
@@ -109,7 +122,8 @@
     "semester": 5,
     "hours": 3,
     "lab": false,
-    "groups": 3
+    "groups": 3,
+    "specialization": "general"
   },
   {
     "id": "CI-0123",
@@ -117,7 +131,8 @@
     "semester": 5,
     "hours": 3,
     "lab": true,
-    "groups": 3
+    "groups": 3,
+    "specialization": "general"
   },
   {
     "id": "CI-0124",
@@ -125,7 +140,8 @@
     "semester": 5,
     "hours": 5,
     "lab": false,
-    "groups": 2
+    "groups": 2,
+    "specialization": "general"
   },
   {
     "id": "CI-0126",
@@ -133,7 +149,8 @@
     "semester": 6,
     "hours": 5,
     "lab": false,
-    "groups": 3
+    "groups": 3,
+    "specialization": "general"
   },
   {
     "id": "CI-0127",
@@ -141,7 +158,8 @@
     "semester": 6,
     "hours": 5,
     "lab": false,
-    "groups": 3
+    "groups": 3,
+    "specialization": "general"
   },
   {
     "id": "CI-0128",
@@ -149,7 +167,8 @@
     "semester": 6,
     "hours": 3,
     "lab": true,
-    "groups": 3
+    "groups": 3,
+    "specialization": "general"
   },
   {
     "id": "CI-0129",
@@ -157,7 +176,8 @@
     "semester": 6,
     "hours": 5,
     "lab": false,
-    "groups": 1
+    "groups": 1,
+    "specialization": "computer science"
   },
   {
     "id": "CI-0130",
@@ -165,7 +185,8 @@
     "semester": 5,
     "hours": 5,
     "lab": false,
-    "groups": 1
+    "groups": 1,
+    "specialization": "general"
   },
   {
     "id": "CI-0131",
@@ -173,7 +194,8 @@
     "semester": 7,
     "hours": 5,
     "lab": false,
-    "groups": 1
+    "groups": 1,
+    "specialization": "computer science"
   },
   {
     "id": "CI-0133",
@@ -181,7 +203,8 @@
     "semester": 8,
     "hours": 5,
     "lab": false,
-    "groups": 3
+    "groups": 3,
+    "specialization": "general"
   },
   {
     "id": "CI-0134",
@@ -189,7 +212,8 @@
     "semester": 8,
     "hours": 5,
     "lab": false,
-    "groups": 1
+    "groups": 1,
+    "specialization": "computer science"
   },
   {
     "id": "CI-0146",
@@ -197,31 +221,35 @@
     "semester": 8,
     "hours": 5,
     "lab": false,
-    "groups": 0
+    "groups": 0,
+    "specialization": "computer science"
   },
   {
     "id": "CI-0135",
     "name": "Interacción Humano-Computador",
-    "semester": 7,
+    "semester": 5,
     "hours": 5,
     "lab": false,
-    "groups": 1
+    "groups": 1,
+    "specialization": "software"
   },
   {
     "id": "CI-0136",
     "name": "Diseño de Software",
-    "semester": 7,
+    "semester": 5,
     "hours": 5,
     "lab": false,
-    "groups": 1
+    "groups": 1,
+    "specialization": "software"
   },
   {
     "id": "CI-0137",
     "name": "Desarrollo de Aplicaciones Web",
-    "semester": 8,
+    "semester": 6,
     "hours": 5,
     "lab": false,
-    "groups": 1
+    "groups": 1,
+    "specialization": "software"
   },
   {
     "id": "CI-0138",
@@ -229,23 +257,26 @@
     "semester": 8,
     "hours": 5,
     "lab": false,
-    "groups": 1
+    "groups": 1,
+    "specialization": "information technology"
   },
   {
     "id": "CI-0139",
     "name": "Administración de Proyectos",
-    "semester": 8,
+    "semester": 7,
     "hours": 5,
     "lab": false,
-    "groups": 1
+    "groups": 1,
+    "specialization": "software"
   },
   {
     "id": "CI-0140",
     "name": "Calidad del Software",
-    "semester": 8,
+    "semester": 7,
     "hours": 5,
     "lab": false,
-    "groups": 1
+    "groups": 1,
+    "specialization": "software"
   },
   {
     "id": "CI-0141",
@@ -253,7 +284,8 @@
     "semester": 7,
     "hours": 5,
     "lab": false,
-    "groups": 2
+    "groups": 2,
+    "specialization": "software"
   },
   {
     "id": "CI-0142",
@@ -261,7 +293,8 @@
     "semester": 8,
     "hours": 5,
     "lab": false,
-    "groups": 1
+    "groups": 1,
+    "specialization": "software"
   },
   {
     "id": "CI-0143",
@@ -269,7 +302,8 @@
     "semester": 8,
     "hours": 5,
     "lab": false,
-    "groups": 2
+    "groups": 2,
+    "specialization": "information technology"
   },
   {
     "id": "CI-0144",
@@ -277,7 +311,8 @@
     "semester": 8,
     "hours": 5,
     "lab": false,
-    "groups": 1
+    "groups": 1,
+    "specialization": "information technology"
   },
   {
     "id": "CI-0156",
@@ -285,7 +320,8 @@
     "semester": 8,
     "hours": 5,
     "lab": false,
-    "groups": 1
+    "groups": 1,
+    "specialization": "software"
   },
   {
     "id": "CI-0162",
@@ -293,7 +329,8 @@
     "semester": 8,
     "hours": 5,
     "lab": false,
-    "groups": 1
+    "groups": 1,
+    "specialization": "optative"
   },
   {
     "id": "CI-0161",
@@ -301,7 +338,8 @@
     "semester": 8,
     "hours": 5,
     "lab": false,
-    "groups": 1
+    "groups": 1,
+    "specialization": "optative"
   },
   {
     "id": "CI-0163",
@@ -309,7 +347,8 @@
     "semester": 8,
     "hours": 5,
     "lab": false,
-    "groups": 1
+    "groups": 1,
+    "specialization": "optative"
   },
   {
     "id": "CI-0155",
@@ -317,6 +356,7 @@
     "semester": 8,
     "hours": 5,
     "lab": false,
-    "groups": 1
+    "groups": 1,
+    "specialization": "optative"
   }
 ]

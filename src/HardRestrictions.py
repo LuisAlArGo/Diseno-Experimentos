@@ -132,59 +132,61 @@ class HardRestrictions:
     # ==============================================================================================
     
     def _curriculum_conflicts(self, semester_schedule: List[Group]) -> int:
-        """Check if there exists at least one valid schedule combination for students in a semester
-        
-        A valid combination means students can attend all courses without time conflicts.
-        Returns (Total Materias en Semestre) - (Máximo Materias Compatibles).
-        """
         if not semester_schedule:
             return 0
         
-        # Agrupar los grupos por materia.
         courses_map = defaultdict(list)
+        course_specs = {}
         for group in semester_schedule:
             courses_map[group.course.id].append(group)
+            course_specs[group.course.id] = group.course.specialization.lower()
         
-        # Convertir el mapa a una lista de listas de grupos (una lista por materia).
-        course_groups_list = list(courses_map.values())
-        total_courses = len(course_groups_list)
+        general = [cid for cid, spec in course_specs.items() if spec == "general"]
+        software = [cid for cid, spec in course_specs.items() if spec == "software"]
+        cs = [cid for cid, spec in course_specs.items() if spec == "computer science"]
+        it = [cid for cid, spec in course_specs.items() if spec == "information technology"]
+
+        tracks = []
+        if software: tracks.append(general + software)
+        if cs: tracks.append(general + cs)
+        if it: tracks.append(general + it)
         
-        if total_courses <= 1:
-            return 0
+        if not tracks and general:
+            tracks.append(general)
 
-        # Ordenar por el número de grupos disponibles .
-        course_groups_list.sort(key=len)
-        self._max_compatible_courses = 0 
+        total_penalty = 0
 
-        def backtrack(course_idx, current_occupied_blocks, count_taken):
-            """Función recursiva de backtracking."""
+        for track_courses in tracks:
+            if len(track_courses) <= 1:
+                continue
+
+            course_groups_list = [courses_map[cid] for cid in track_courses]
+            course_groups_list.sort(key=len)
             
-            # Podar
-            remaining_courses = total_courses - course_idx
-            if count_taken + remaining_courses <= self._max_compatible_courses:
-                return
+            total_courses_in_track = len(course_groups_list)
+            self._max_compatible_courses = 0 
 
-            # Caso base: si hemos considerado todas las materias, actualizamos el máximo.
-            if course_idx == total_courses:
-                if count_taken > self._max_compatible_courses:
-                    self._max_compatible_courses = count_taken
-                return
-            
-            # Intentar tomar la materia actual.
-            groups_available = course_groups_list[course_idx]
-            for group in groups_available:
-                # Si el grupo actual no choca con los bloques ya ocupados
-                if not self._group_conflicts_with_blocks(group, current_occupied_blocks):
-                    # lo tomamos y pasamos a la siguiente materia.
-                    backtrack(course_idx + 1, current_occupied_blocks + group.schedules, count_taken + 1)
+            def backtrack(course_idx, current_occupied_blocks, count_taken):
+                remaining_courses = total_courses_in_track - course_idx
+                if count_taken + remaining_courses <= self._max_compatible_courses:
+                    return
 
-            # intentar NO tomar la materia actual y pasar a la siguiente.
-            backtrack(course_idx + 1, current_occupied_blocks, count_taken)
+                if course_idx == total_courses_in_track:
+                    if count_taken > self._max_compatible_courses:
+                        self._max_compatible_courses = count_taken
+                    return
+                
+                groups_available = course_groups_list[course_idx]
+                for group in groups_available:
+                    if not self._group_conflicts_with_blocks(group, current_occupied_blocks):
+                        backtrack(course_idx + 1, current_occupied_blocks + group.schedules, count_taken + 1)
 
-        backtrack(0, [], 0) # Iniciar la búsqueda desde la primera materia.
-        
-        # La penalización es el número de materias que un estudiante no puede cursar.
-        return total_courses - self._max_compatible_courses
+                backtrack(course_idx + 1, current_occupied_blocks, count_taken)
+
+            backtrack(0, [], 0)
+            total_penalty += (total_courses_in_track - self._max_compatible_courses)
+
+        return total_penalty
 
     def _group_conflicts_with_blocks(self, group: Group, used_blocks: List[BlockSchedule]) -> bool:
         """Verificar si un grupo choca con una lista de bloques ocupados."""

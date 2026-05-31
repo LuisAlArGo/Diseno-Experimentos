@@ -6,45 +6,15 @@ from DataLoader import DataLoader
 from HardRestrictions import HardRestrictions
 from Heuristic import heuristic_schedule
 from SoftRestrictions import SoftRestrictions
-# from Group import Group
 from Schedule import *
 from Brute import brute_force
 
 from genetic_algorithm import run_genetic_algorithm
 
-
 def usage():
     print("USAGE: python main.py <data-folder-path> [mode]")
     print("     - data-file-path: path to the input data directory")
     print("     - mode: how the solution is built (0=brute force, 1=heuristic, 2=genetic algorithm). 2 is default.")
-
-def placeholder_schedule(loader: DataLoader) -> Schedule:
-    """
-    Build a placeholder schedule using a random assignment.
-    
-    Args:
-        loader (DataLoader): data loader with input data
-    
-    Retruns:
-        Schedule: generated schedule
-    """
-    schedule = build_random_schedule(loader)
-
-    groups = list(schedule.class_groups.values())
-    hard_eval = HardRestrictions()
-    total_hard, hard_details = hard_eval.evaluate(groups)
-    schedule.hard_violations = total_hard
-
-    soft_eval = SoftRestrictions()
-    soft_penalty, soft_details = soft_eval.evaluate(groups)
-    schedule.soft_violations = soft_details
-
-    hard_weight = 1000.0
-    soft_weight = 100.0
-    schedule.fitness_val = (total_hard * hard_weight) + (soft_penalty * soft_weight)
-
-    return schedule
-
 
 def main():
     import argparse
@@ -66,42 +36,54 @@ def main():
         return
     print(f"Data Loaded: {len(loader.courses)} courses, {len(loader.professors)} professors, {len(loader.classrooms)} classrooms.")
 
-    schedule = None
+    schedules = []
 
     if args.mode == 0:
         schedule = brute_force(loader)
+        if schedule: schedules.append(schedule)
     elif args.mode == 1:
         schedule = heuristic_schedule(loader, hard_weight=1000.0, soft_weight=100.0, verbose=args.verbose)
+        if schedule: schedules.append(schedule)
     elif args.mode == 2:
-        schedule = run_genetic_algorithm(
+        # Devuelve una lista con los 10 mejores resultados obtenidos
+        schedules = run_genetic_algorithm(
             loader, 
             population_size=200, 
-            generations=150, 
+            generations=500, 
+            num_results=10, 
             verbose=args.verbose
         )
 
-    if schedule:
-        groups = list(schedule.class_groups.values())
-
-        hard_eval = HardRestrictions()
-        detailed_report = hard_eval.get_detailed_report(groups)
-
-        # Guardar reporte en archivo
+    if schedules:
         if not os.path.exists("out"):
             os.makedirs("out")
 
-        with open("out/hard_report.txt", "w", encoding="utf-8") as f:
-            for line in detailed_report:
-                f.write(line + "\n")
+        # Iteramos sobre todos los horarios encontrados y los guardamos
+        for i, schedule in enumerate(schedules):
+            suffix = f"_{i+1}" if len(schedules) > 1 else ""
+            
+            groups = list(schedule.class_groups.values())
+            hard_eval = HardRestrictions()
+            detailed_report = hard_eval.get_detailed_report(groups)
 
-        if detailed_report:
-            for line in detailed_report:
-                print(line)
-        else:
-            print("No hard violations found.")
+            # Guardar reporte en archivo de texto numerado
+            with open(f"out/hard_report{suffix}.txt", "w", encoding="utf-8") as f:
+                for line in detailed_report:
+                    f.write(line + "\n")
 
-        schedule.to_json("out/schedule.json")
-        schedule.to_csv("out/schedule.csv")
+            # Solo imprimimos en consola el reporte del primer horario
+            if i == 0:  
+                if detailed_report:
+                    for line in detailed_report:
+                        print(line)
+                else:
+                    print("No hard violations found in the best schedule.")
+
+            # Guardar JSON y CSV numerados
+            schedule.to_json(f"out/schedule{suffix}.json")
+            schedule.to_csv(f"out/schedule{suffix}.csv")
+            
+        print(f"\nSe han guardado {len(schedules)} opciones de horario en la carpeta 'out/'.")
     else:
         print("Error: No schedule was generated.")
 

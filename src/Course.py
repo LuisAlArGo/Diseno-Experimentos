@@ -9,7 +9,8 @@ class Course:
     hours: int
     lab: bool
     groups: int 
-
+    specialization: str
+    
     def __hash__(self):
         return hash(self.id)
 
@@ -19,4 +20,4 @@ class Course:
         return self.id == other.id
     
     def __repr__(self):
-        return f"Course({self.id}, {self.name}, Sem{self.semester})"
+        return f"Course({self.id}, {self.name}, Sem{self.semester}, {self.specialization})"

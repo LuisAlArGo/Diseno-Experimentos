@@ -32,7 +32,7 @@ class GeneticScheduler:
                  tournament_size: int = 5,
                  elitism_size: int = 5,
                  hard_weight: float = 1000.0,
-                 soft_weight: float = 100.0):
+                 soft_weight: float = 1000.0):
         """
         Inicializa el planificador genético con los parámetros de configuración.
 
@@ -397,41 +397,25 @@ class GeneticScheduler:
             # Swap
             g1.schedules, g2.schedules = g2.schedules, g1.schedules
     
-    def evolve(self, verbose: bool = True) -> Schedule:
+    def evolve(self, num_results: int = 10, verbose: bool = True) -> List[Schedule]:
         """
         Ejecuta el algoritmo genético completo.
-        
-        1. Genera población inicial.
-        2. Itera por el número de generaciones.
-        3. Aplica Elitismo, Selección, Cruce y Mutación.
-        4. Reporta estadísticas.
-        
-        Returns:
-            Schedule: El mejor horario encontrado al finalizar.
+        Itera hasta la generación máxima estipulada y devuelve los mejores resultados.
         """
         if verbose:
             print(f"Creando población inicial de {self.population_size} individuos")
         
         population = self.toolbox.population(n=self.population_size)
-        # population = self._create_init_heur_pop(verbose=verbose)
         
         # Evaluación inicial
         fitnesses = list(map(self.toolbox.evaluate, population))
         for ind, fit in zip(population, fitnesses):
             ind.fitness.values = fit
         
-        # Verificar si la primera genero un horario valido ---
-        best_init = tools.selBest(population, 1)[0]
-        if best_init.hard_violations == 0:
-            if verbose:
-                self._print_stats(population, 0)
-                print("\n Solución válida encontrada")
-            return best_init
-
         if verbose:
             self._print_stats(population, 0)
         
-        # Bucle generacional
+        # Bucle generacional (Sin paradas tempranas)
         for gen in range(1, self.generations + 1):
             # 1. Elitismo: Guardar los mejores
             elite = tools.selBest(population, self.elitism_size)
@@ -444,7 +428,6 @@ class GeneticScheduler:
             for child1, child2 in zip(offspring[::2], offspring[1::2]):
                 if random.random() < self.cx_prob:
                     self.toolbox.mate(child1, child2)
-                    # Invalidar fitness tras modificación
                     del child1.fitness.values
                     del child2.fitness.values
             
@@ -463,30 +446,42 @@ class GeneticScheduler:
             # 6. Nueva población = Élite + Descendencia
             population[:] = elite + offspring
             
-            best_in_gen = tools.selBest(population, 1)[0]
-            
-            # Verificar si es un horario valido
-            if best_in_gen.hard_violations == 0:
-                if verbose:
-                    self._print_stats(population, gen)
-                    print("\n" + "="*80)
-                    print(f"Solución válida encontrada en la generación {gen}")
-                    print("="*80)
-                    self._print_individual_details(best_in_gen)
-                return best_in_gen
-
             if verbose and (gen % 10 == 0):
                 self._print_stats(population, gen)
         
-        # Selección del mejor global
-        best = tools.selBest(population, 1)[0]
+        # Selección de los mejores globales al finalizar
+        best_individuals = tools.selBest(population, self.population_size)
+        
+        # Intentamos obtener horarios únicos usando su fitness para no devolver "clones" idénticos
+        unique_bests = []
+        seen_fitnesses = set()
+        
+        for ind in best_individuals:
+            fit_val = round(ind.fitness.values[0], 4)
+            if fit_val not in seen_fitnesses:
+                seen_fitnesses.add(fit_val)
+                unique_bests.append(ind)
+            if len(unique_bests) == num_results:
+                break
+                
+        # Si no hay suficientes fitness únicos, rellenamos con el resto de los mejores
+        if len(unique_bests) < num_results:
+            for ind in best_individuals:
+                if ind not in unique_bests:
+                    unique_bests.append(ind)
+                if len(unique_bests) == num_results:
+                    break
+        
         if verbose:
             print("\n" + "="*80)
             print("EVOLUCIÓN COMPLETADA")
             print("="*80)
-            self._print_individual_details(best)
+            print(f"Mejores {len(unique_bests)} horarios obtenidos:")
+            for i, best in enumerate(unique_bests, 1):
+                print(f"\n--- Opción de horario {i} ---")
+                self._print_individual_details(best)
         
-        return best
+        return unique_bests
     
     def _print_stats(self, population, generation):
         """Imprime estadísticas básicas de la generación actual."""
@@ -567,18 +562,11 @@ class GeneticScheduler:
 def run_genetic_algorithm(loader: DataLoader, 
                           population_size: int = 100,
                           generations: int = 200,
-                          verbose: bool = True) -> Schedule:
+                          num_results: int = 10,
+                          verbose: bool = True) -> List[Schedule]:
     """
     Función de ayuda (Helper) para instanciar y ejecutar el planificador genético.
-    
-    Args:
-        loader (DataLoader): Datos de entrada.
-        population_size (int): Tamaño de la población.
-        generations (int): Número de generaciones.
-        verbose (bool): Si es True, imprime logs en consola.
-        
-    Returns:
-        Schedule: El mejor horario generado.
+    Retorna una LISTA con los mejores horarios.
     """
     scheduler = GeneticScheduler(
         loader=loader,
@@ -589,5 +577,6 @@ def run_genetic_algorithm(loader: DataLoader,
         tournament_size=5,
         elitism_size=max(5, population_size // 20)
     )
-    best_schedule = scheduler.evolve(verbose=verbose)
-    return best_schedule
+    # Mandamos el num_results deseado al método evolve
+    best_schedules = scheduler.evolve(num_results=num_results, verbose=verbose)
+    return best_schedules

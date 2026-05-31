@@ -71,52 +71,52 @@
   },
   {
     "number": "107",
-    "type": "lab"
+    "type": "normal"
 
   },
   {
     "number": "106",
-    "type": "lab"
+    "type": "normal"
 
   },
   {
     "number": "3-5",
-    "type": "lab"
+    "type": "normal"
 
   },
   {
     "number": "4-6",
-    "type": "lab"
+    "type": "normal"
 
   },
   {
     "number": "6-6",
-    "type": "lab"
+    "type": "normal"
 
   },
   {
     "number": "101",
-    "type": "lab"
+    "type": "normal"
 
   },
   {
     "number": "101 IN",
-    "type": "lab"
+    "type": "normal"
 
   },
   {
     "number": "102 IN",
-    "type": "lab"
+    "type": "normal"
 
   },
   {
     "number": "111 LAB",
-    "type": "lab"
+    "type": "normal"
 
   },
   {
     "number": "112 LAB",
-    "type": "lab"
+    "type": "normal"
 
   }
 ]
