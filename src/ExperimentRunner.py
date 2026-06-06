@@ -3,6 +3,7 @@ import csv
 import time
 import shutil
 import random
+import tempfile
 import traceback
 from datetime import datetime
 from DataLoader import DataLoader
@@ -12,10 +13,20 @@ from simulated_annealing import run_simulated_annealing
 SRC_DIR = os.path.dirname(os.path.abspath(__file__))
 PROJECT_DIR = os.path.dirname(SRC_DIR)
 
-def setup_classroom_block(instance_path: str, block_type: int):
-    source_file = os.path.join(PROJECT_DIR, "base_classroom", f"classrooms_{block_type}.json")
-    target_file = os.path.join(instance_path, "classrooms.json")
-    shutil.copy(source_file, target_file)
+def prepare_run_dir(instance_path: str, block_type: int) -> str:
+    """Copia la instancia a un directorio temporal e inyecta el classrooms correcto.
+
+    Retorna el path al directorio temporal listo para usar con DataLoader.
+    La instancia original no se modifica.
+    """
+    tmp_dir = tempfile.mkdtemp(prefix="exp_run_")
+    # Copiar courses.json y professors.json
+    for fname in ("courses.json", "professors.json"):
+        shutil.copy(os.path.join(instance_path, fname), os.path.join(tmp_dir, fname))
+    # Inyectar el classrooms correcto según block_type
+    classroom_src = os.path.join(PROJECT_DIR, "base_classroom", f"classrooms_{block_type}.json")
+    shutil.copy(classroom_src, os.path.join(tmp_dir, "classrooms.json"))
+    return tmp_dir
 
 def main():
     SEEDS = list(range(1, 21))  # 20 instancias
@@ -81,29 +92,27 @@ def main():
                 writer.writerow([current_order, timestamp, seed, diff, class_block, algo, "", "", "", "", "SKIPPED_NOT_FOUND"])
             continue
 
-        # Preparar el archivo de aulas
-        setup_classroom_block(instance_path, class_block)
-
         start_time = time.time()
         status = "SUCCESS"
         best_fitness = ""
         hard_viols = ""
         soft_penalty = ""
+        run_dir = None
 
         try:
-            # Inicializar y correr
-            loader = DataLoader(instance_path)
+            run_dir = prepare_run_dir(instance_path, class_block)
+            loader = DataLoader(run_dir)
             loader.load_all()
 
             if algo == "GA":
-                schedules = run_genetic_algorithm(loader, population_size=50, generations=50, num_results=1, verbose=False)
+                schedules = run_genetic_algorithm(loader, population_size=200, generations=500, num_results=1, verbose=False)
             elif algo == "SA":
                 schedules = run_simulated_annealing(
                     loader,
-                    initial_temp=5000.0,
-                    cooling_rate=0.95,
-                    min_temp=1.0,
-                    iterations_per_temp=10,
+                    initial_temp=50000.0,
+                    cooling_rate=0.995,
+                    min_temp=0.1,
+                    iterations_per_temp=50,
                     verbose=False
                 )
 
@@ -119,6 +128,9 @@ def main():
             status = f"ERROR: {type(e).__name__}"
             print(f"  [!] Fallo en la ejecución: {e}")
             traceback.print_exc()
+        finally:
+            if run_dir and os.path.exists(run_dir):
+                shutil.rmtree(run_dir, ignore_errors=True)
 
         # Registrar tiempo de CPU
         exec_time = round(time.time() - start_time, 2)

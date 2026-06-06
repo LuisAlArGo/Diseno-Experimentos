@@ -1,0 +1,14 @@
+# Instancias generadas (reproducibles con instanceGen.py)
+generated_instances/
+
+# Resultados del experimento
+anova_results_randomized.csv
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Outputs del algoritmo
+out/
+out_quick/
