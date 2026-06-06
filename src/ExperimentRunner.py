@@ -9,8 +9,11 @@ from DataLoader import DataLoader
 from genetic_algorithm import run_genetic_algorithm
 from simulated_annealing import run_simulated_annealing
 
+SRC_DIR = os.path.dirname(os.path.abspath(__file__))
+PROJECT_DIR = os.path.dirname(SRC_DIR)
+
 def setup_classroom_block(instance_path: str, block_type: int):
-    source_file = f"../base_classrooms/classrooms_{block_type}.json"
+    source_file = os.path.join(PROJECT_DIR, "base_classroom", f"classrooms_{block_type}.json")
     target_file = os.path.join(instance_path, "classrooms.json")
     shutil.copy(source_file, target_file)
 
@@ -19,9 +22,9 @@ def main():
     DIFFICULTIES = ["A+", "A-"]
     ALGORITHMS = ["GA", "SA"]
     CLASSROOM_BLOCKS = [24, 19]
-    
-    BASE_INSTANCES_DIR = "../generated_instances"
-    RESULTS_FILE = "../anova_results_randomized.csv"
+
+    BASE_INSTANCES_DIR = os.path.join(PROJECT_DIR, "generated_instances")
+    RESULTS_FILE = os.path.join(PROJECT_DIR, "anova_results_randomized.csv")
 
     # Generar la lista completa de todas las combinaciones de corridas
     all_runs = []
@@ -93,14 +96,14 @@ def main():
             loader.load_all()
 
             if algo == "GA":
-                schedules = run_genetic_algorithm(loader, population_size=200, generations=500, num_results=1, verbose=False)
+                schedules = run_genetic_algorithm(loader, population_size=50, generations=50, num_results=1, verbose=False)
             elif algo == "SA":
                 schedules = run_simulated_annealing(
                     loader,
-                    initial_temp=50000.0,
-                    cooling_rate=0.995,
-                    min_temp=0.1,
-                    iterations_per_temp=50,
+                    initial_temp=5000.0,
+                    cooling_rate=0.95,
+                    min_temp=1.0,
+                    iterations_per_temp=10,
                     verbose=False
                 )
 

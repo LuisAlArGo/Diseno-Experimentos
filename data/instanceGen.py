@@ -376,7 +376,7 @@ def phase3_generate_professors(
         assigned_count   = len(assigned_groups)
         assigned_courses = prof_assigned_courses.get(pid, set())
 
-        extra_groups = rng.choice([4, 5]) if difficulty == "A+" else 1
+        extra_groups = rng.choice([2, 3]) if difficulty == "A+" else 1
         max_groups = assigned_count + extra_groups
 
         # Generar horarios en base a la proporción
@@ -398,26 +398,17 @@ def phase3_generate_professors(
             can_teach_set = set(all_course_ids)
             pref_teach_set = set(all_course_ids)
         else:
-            # Determinar la cantidad de materias (cursos) extra según la dificultad
-            num_extra_courses = 2 if difficulty == "A+" else 1
-            
-            # Buscar los cursos que el profesor AÚN NO tenga asignados
+            # Buscar un curso random que el profesor AÚN NO tenga asignado
             unassigned_courses = [cid for cid in all_course_ids if cid not in can_teach_set]
-            
-            # Asegurarnos de no pedir más cursos de los que existen disponibles
-            courses_to_add_count = min(num_extra_courses, len(unassigned_courses))
-            
-            if courses_to_add_count > 0:
-                # rng.sample elige 'n' elementos sin repetir
-                random_extra_courses = rng.sample(unassigned_courses, courses_to_add_count)
+            if unassigned_courses:
+                random_extra_course = rng.choice(unassigned_courses)
                 
-                for extra_course in random_extra_courses:
-                    # Siempre lo puede enseñar
-                    can_teach_set.add(extra_course)
-                    
-                    # Si es holgado (A+), también prefiere enseñarlo
-                    if difficulty == "A+":
-                        pref_teach_set.add(extra_course)
+                # Siempre lo puede enseñar
+                can_teach_set.add(random_extra_course)
+                
+                # Si es holgado (A+), también prefiere enseñarlo
+                if difficulty == "A+":
+                    pref_teach_set.add(random_extra_course)
 
         result.append({
             "id":                   pid,
@@ -661,9 +652,9 @@ def _build_solution(
 
 
 def _banner(msg: str) -> None:
-    print(f"\n{'─' * 60}")
+    print(f"\n{'-' * 60}")
     print(f"  {msg}")
-    print("─" * 60)
+    print("-" * 60)
 
 
 if __name__ == "__main__":
