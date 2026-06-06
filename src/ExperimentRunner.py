@@ -7,12 +7,7 @@ import traceback
 from datetime import datetime
 from DataLoader import DataLoader
 from genetic_algorithm import run_genetic_algorithm
-
-# Construye horarios aleatorios de momento
-def run_simulated_annealing(loader, verbose=False):
-    from Schedule import build_random_schedule
-    schedule = build_random_schedule(loader)
-    return [schedule]
+from simulated_annealing import run_simulated_annealing
 
 def setup_classroom_block(instance_path: str, block_type: int):
     source_file = f"../base_classrooms/classrooms_{block_type}.json"
@@ -100,7 +95,14 @@ def main():
             if algo == "GA":
                 schedules = run_genetic_algorithm(loader, population_size=200, generations=500, num_results=1, verbose=False)
             elif algo == "SA":
-                schedules = run_simulated_annealing(loader, verbose=False)
+                schedules = run_simulated_annealing(
+                    loader,
+                    initial_temp=50000.0,
+                    cooling_rate=0.995,
+                    min_temp=0.1,
+                    iterations_per_temp=50,
+                    verbose=False
+                )
 
             if schedules and len(schedules) > 0:
                 best_schedule = schedules[0]
