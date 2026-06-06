@@ -5,7 +5,7 @@ from enum import Enum, auto, unique, IntEnum, StrEnum
 class DAYS(StrEnum):
     MONDAY = "Lunes"
     TUESDAY = "Martes"
-    WEDNESDAY = "Miércoles"
+    WEDNESDAY = "Miercoles"
     THURSDAY = "Jueves"
     FRIDAY = "Viernes"
     SATURDAY = "Sábado"

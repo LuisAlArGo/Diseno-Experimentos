@@ -76,7 +76,7 @@
     "name": "Programación Paralela y Concurrente",
     "semester": 4,
     "hours": 5,
-    "lab": true,
+    "lab": false,
     "groups": 4,
     "specialization": "general"
   },
@@ -130,7 +130,7 @@
     "name": "PI Redes y Sistemas Operativos",
     "semester": 5,
     "hours": 3,
-    "lab": true,
+    "lab": false,
     "groups": 3,
     "specialization": "general"
   },
@@ -166,7 +166,7 @@
     "name": "PI Ingeniería y Bases de Datos",
     "semester": 6,
     "hours": 3,
-    "lab": true,
+    "lab": false,
     "groups": 3,
     "specialization": "general"
   },

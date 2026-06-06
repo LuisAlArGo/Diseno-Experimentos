@@ -60,7 +60,6 @@ class Schedule:
                         })
                         current_group = [curr]
 
-                # finalize last block group
                 consolidated.append({
                     'day': day,
                     'start_hour': current_group[0].block.start_hour,
@@ -174,7 +173,7 @@ class Schedule:
                         blocks_by_day.setdefault(schedule.day, []).append(schedule)
                     
                     consolidated_schedules = []
-                    sorted_days = sorted(blocks_by_day.keys(), key=lambda d: ["Lunes", "Martes", "Miércoles", "Jueves", "Viernes"].index(d))
+                    sorted_days = sorted(blocks_by_day.keys(), key=lambda d: ["Lunes", "Martes", "Miercoles", "Jueves", "Viernes"].index(d))
 
                     for day in sorted_days:
                         blocks = blocks_by_day[day]
@@ -219,13 +218,13 @@ DAY_PAIRS = {
     "Jueves": ["Lunes"],
     "Martes": ["Viernes"],
     "Viernes": ["Martes"],
-    "Miércoles": ["Lunes", "Viernes"] 
+    "Miercoles": ["Lunes", "Viernes"] 
 }
 
 DAY_WEIGHTS = {
     "Lunes": 2,
     "Martes": 2,
-    "Miércoles": 1,
+    "Miercoles": 1,
     "Jueves": 2,
     "Viernes": 2
 }
@@ -285,7 +284,7 @@ def build_random_schedule(loader: DataLoader) -> Schedule:
             professor = random.choice(profs) if profs else None
 
             if course.lab:
-                labs = [r for r in loader.classrooms if r.type == "lab"]
+                labs = [r for r in loader.classrooms if r.type.lower() == "lab"]
                 classroom = random.choice(labs) if labs else random.choice(loader.classrooms)
             else:
                 classroom = random.choice(loader.classrooms)

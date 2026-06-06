@@ -32,7 +32,7 @@ class GeneticScheduler:
                  tournament_size: int = 5,
                  elitism_size: int = 5,
                  hard_weight: float = 1000.0,
-                 soft_weight: float = 1000.0):
+                 soft_weight: float = 100.0):
         """
         Inicializa el planificador genético con los parámetros de configuración.
 
@@ -85,8 +85,8 @@ class GeneticScheduler:
                 p for p in self.loader.professors if course.id in p.courses
             ]
         
-        self.labs = [r for r in self.loader.classrooms if r.type == "lab"]
-        self.regular_rooms = [r for r in self.loader.classrooms if r.type != "lab"]
+        self.labs = [r for r in self.loader.classrooms if r.type.lower() == "lab"]
+        self.regular_rooms = [r for r in self.loader.classrooms if r.type.lower() != "lab"]
         
         self.all_days = list(DAY_WEIGHTS.keys())
         self.day_weights_values = list(DAY_WEIGHTS.values())
@@ -326,6 +326,24 @@ class GeneticScheduler:
         if new_blocks:
             group.schedules = new_blocks
 
+    def _mutate_swap(self, groups: List[Group]):
+        """Intercambia los horarios entre dos grupos del mismo curso (ej. Grupo A y Grupo B)."""
+        groups_by_course = defaultdict(list)
+        for group in groups:
+            groups_by_course[group.course.id].append(group)
+        
+        # Filtrar cursos que tienen múltiples grupos
+        multi_group_courses = [cid for cid, glist in groups_by_course.items() if len(glist) > 1]
+        if not multi_group_courses:
+            return
+            
+        course_id = random.choice(multi_group_courses)
+        course_groups = groups_by_course[course_id]
+        if len(course_groups) >= 2:
+            g1, g2 = random.sample(course_groups, 2)
+            # Swap
+            g1.schedules, g2.schedules = g2.schedules, g1.schedules
+
     def _get_random_blocks(self, course) -> List[BlockSchedule]:
         """
         Genera una lista válida de bloques de tiempo aleatorios para un curso.
@@ -364,11 +382,18 @@ class GeneticScheduler:
                 
                 if not blocks1: continue
                 
-                # Intentar alinear la hora en Dia 2
-                h1 = blocks1[0].block.start_hour
+                alignment = random.choice(["same_start", "same_end"])
+                start_h1 = blocks1[0].block.start_hour
+                
+                if alignment == "same_start":
+                    target_start_h2 = start_h1
+                else: # same_end
+                    target_start_h2 = start_h1 + hours_day1 - hours_day2
+                
+                # Buscar el índice en el Día 2 que coincida con target_start_h2
                 idx2 = -1
                 for i, b in enumerate(day2_blocks):
-                    if b.block.start_hour == h1:
+                    if b.block.start_hour == target_start_h2:
                         idx2 = i
                         break
                 
@@ -378,24 +403,6 @@ class GeneticScheduler:
                         return blocks1 + blocks2
         
         return []
-    
-    def _mutate_swap(self, groups: List[Group]):
-        """Intercambia los horarios entre dos grupos del mismo curso (ej. Grupo A y Grupo B)."""
-        groups_by_course = defaultdict(list)
-        for group in groups:
-            groups_by_course[group.course.id].append(group)
-        
-        # Filtrar cursos que tienen múltiples grupos
-        multi_group_courses = [cid for cid, glist in groups_by_course.items() if len(glist) > 1]
-        if not multi_group_courses:
-            return
-            
-        course_id = random.choice(multi_group_courses)
-        course_groups = groups_by_course[course_id]
-        if len(course_groups) >= 2:
-            g1, g2 = random.sample(course_groups, 2)
-            # Swap
-            g1.schedules, g2.schedules = g2.schedules, g1.schedules
     
     def evolve(self, num_results: int = 10, verbose: bool = True) -> List[Schedule]:
         """
@@ -503,61 +510,6 @@ class GeneticScheduler:
             for key, value in individual.soft_violations.items():
                 print(f"  - {key}: {value:.4f}")
         print(f"\nTotal de Grupos: {len(individual.class_groups)}")
-
-    def _create_init_heur_pop(self, verbose: bool=False) -> List[Schedule]:
-        population =[]
-        from Heuristic import heuristic_schedule
-        heuristic_ratio = 0.2
-        heuristic_count = int(self.population_size * heuristic_ratio)
-        if verbose:
-            print(f"\nGenerating {heuristic_count} heuristic schedules...")
-
-        for i in range(heuristic_count):
-            try:
-                if verbose:
-                    print(f"    Heuristic schedule {i+1}/{heuristic_count}...", end=" ")
-                
-                heuristic_sched = heuristic_schedule(
-                    self.loader,
-                    hard_weight=self.hard_weight,
-                    soft_weight=self.soft_weight,
-                    max_backtracks=500,
-                    verbose=False
-                )
-                
-                individual = creator.Individual(class_groups=heuristic_sched.class_groups)
-                individual.fitness = creator.FitnessMin()
-
-                if hasattr(heuristic_sched, 'hard_violations'):
-                    individual.hard_violations = heuristic_sched.hard_violations
-                if hasattr(heuristic_sched, 'soft_violations'):
-                    individual.soft_violations = heuristic_sched.soft_violations
-                if hasattr(heuristic_sched, 'fitness_val'):
-                    individual.fitness.values = (heuristic_sched.fitness_val,)
-                else:
-                    self._evaluate(individual)
-                
-                population.append(individual)
-
-                if verbose:
-                    status = "VALID" if individual.hard_violations == 0 else f"INVALID: {individual.hard_violations} violations"
-                    print(status)
-            except Exception as e:
-                if verbose:
-                    print(f"Failed: {str(e)}")
-                population.append(self._create_individual())
-
-        if verbose:
-            valid_count = sum(1 for individual in population if individual.hard_violations == 0)
-            print(f"\nHeuristic results: {valid_count}/{heuristic_count} valid schedules generated")
-            
-        remaining = self.population_size - len(population)
-        if remaining > 0:
-            if verbose:
-                print(f"\nGenerating {remaining} random schedules...")
-            for _ in range(remaining):
-                population.append(self._create_individual())
-        return population
 
 def run_genetic_algorithm(loader: DataLoader, 
                           population_size: int = 100,
